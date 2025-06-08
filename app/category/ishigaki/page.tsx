@@ -10,7 +10,7 @@ export default function IshigakiPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/contents")
+    fetch("/contents.json")
       .then((res) => res.json())
       .then((data) => {
         setSpots(data.filter((item) => item.location === "石垣島"))

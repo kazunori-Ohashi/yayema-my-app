@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": 1,
     "title": "川平湾",
     "description": "石垣島を代表する絶景スポット。透明度の高い海と白い砂浜が美しい。",
@@ -18,3 +19,255 @@
     "location": "石垣島"
   }
 ]
+=======
+    "id": "kabira-bay",
+    "title": "川平湾",
+    "category": "beach",
+    "description": "透明度の高い美しい海が広がる、石垣島を代表する景勝地。グラスボートからは多彩な珊瑚礁や熱帯魚が見られます。",
+    "image": [
+      "/images/kabira-bay.jpg",
+      "https://example.com/images/kabira-bay.jpg"
+    ],
+    "location": "石垣島",
+    "tags": [
+      "ビーチ",
+      "シュノーケリング"
+    ],
+    "isHero": false,
+    "heroSectionComment": "石垣島随一の絶景スポット",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2025-06-03T07:03:20.063Z"
+  },
+  {
+    "id": "yonehara-beach",
+    "title": "米原ビーチ",
+    "category": "beach",
+    "description": "シュノーケリングに最適な美しいビーチ。浅瀬でも色とりどりの魚や珊瑚礁を観察できます。",
+    "image": [
+      "/images/yonehara-beach.jpg",
+      "https://example.com/images/yonehara-beach.jpg"
+    ],
+    "location": "石垣島",
+    "tags": [
+      "ビーチ",
+      "シュノーケリング"
+    ],
+    "isHero": true,
+    "heroSectionComment": "夕日が素敵！",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2025-06-03T06:40:09.190Z",
+    "latitude": 24.451889,
+    "longitude": 124.18381
+  },
+  {
+    "id": "ishigaki-beef",
+    "title": "石垣牛グルメ",
+    "category": "gourmet",
+    "description": "石垣島が誇るブランド牛「石垣牛」。島内の様々なレストランで味わえます。",
+    "image": [
+      "/images/ishigaki-beef.jpg",
+      "https://example.com/images/ishigaki-beef.jpg"
+    ],
+    "location": "石垣島",
+    "tags": [
+      "グルメ",
+      "石垣牛"
+    ],
+    "isHero": true,
+    "heroSectionComment": "牛！",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2025-06-04T01:50:37.237Z"
+  },
+  {
+    "id": "taketomi-village",
+    "title": "竹富島の町並み",
+    "category": "culture",
+    "description": "伝統的な琉球の集落と文化が色濃く残る竹富島の町並み。赤瓦の家並みと白砂の道が特徴。",
+    "image": [
+      "/images/taketomi-village.jpg",
+      "https://example.com/images/taketomi-village.jpg"
+    ],
+    "location": "竹富島",
+    "tags": [
+      "文化",
+      "伝統家屋"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "mariyudu-falls",
+    "title": "マリユドゥの滝",
+    "category": "nature",
+    "description": "西表島にある日本の滝百選にも選ばれた美しい滝。トレッキングで訪れる秘境。",
+    "image": [
+      "/images/mariyudu-falls.jpg",
+      "https://example.com/images/mariyudu-falls.jpg"
+    ],
+    "location": "西表島",
+    "tags": [
+      "自然",
+      "トレッキング"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "yubu-island",
+    "title": "由布島",
+    "category": "nature",
+    "description": "水牛車で渡ることで有名な小さな島。亜熱帯植物園や水牛体験が人気。",
+    "image": [
+      "/images/yubu-island.jpg",
+      "https://example.com/images/yubu-island.jpg"
+    ],
+    "location": "西表島",
+    "tags": [
+      "自然",
+      "水牛車"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "ishigaki-feature",
+    "title": "石垣島",
+    "category": "nature",
+    "description": "美しいビーチと活気ある市街地",
+    "image": [
+      "/images/ishigaki-feature.jpg",
+      "https://example.com/images/ishigaki-feature.jpg"
+    ],
+    "location": "石垣島",
+    "tags": [
+      "島",
+      "観光"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "taketomi-feature",
+    "title": "竹富島",
+    "category": "culture",
+    "description": "伝統的な琉球の集落と文化",
+    "image": [
+      "/images/taketomi-feature.jpg",
+      "https://example.com/images/taketomi-feature.jpg"
+    ],
+    "location": "竹富島",
+    "tags": [
+      "島",
+      "文化"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "iriomote-feature",
+    "title": "西表島",
+    "category": "nature",
+    "description": "マングローブの森と亜熱帯のジャングル",
+    "image": [
+      "/images/iriomote-feature.jpg",
+      "https://example.com/images/iriomote-feature.jpg"
+    ],
+    "location": "西表島",
+    "tags": [
+      "島",
+      "自然"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "snorkeling",
+    "title": "シュノーケリング",
+    "category": "nature",
+    "description": "透明度抜群の海で色とりどりの熱帯魚と泳ぐ",
+    "image": [
+      "/images/snorkeling.jpg",
+      "https://example.com/images/snorkeling.jpg"
+    ],
+    "location": "八重山諸島",
+    "tags": [
+      "体験",
+      "海"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "kayaking",
+    "title": "マングローブカヤック",
+    "category": "nature",
+    "description": "西表島の原生林をカヤックで探検する冒険",
+    "image": [
+      "/images/kayaking.jpg",
+      "https://example.com/images/kayaking.jpg"
+    ],
+    "location": "西表島",
+    "tags": [
+      "体験",
+      "カヤック"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "star-gazing",
+    "title": "星空観察",
+    "category": "nature",
+    "description": "光害の少ない島で満天の星空を堪能",
+    "image": [
+      "/images/star-gazing.jpg",
+      "https://example.com/images/star-gazing.jpg"
+    ],
+    "location": "八重山諸島",
+    "tags": [
+      "体験",
+      "星空"
+    ],
+    "isHero": false,
+    "heroSectionComment": "",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "yaeyama-music",
+    "title": "八重山の音楽",
+    "category": "culture",
+    "description": "歴史ある八重山民謡を演奏してみよう。三線や民謡ライブ体験も人気。",
+    "image": [
+      "/images/hero-1.jpg",
+      "https://example.com/images/hero-1.jpg"
+    ],
+    "location": "八重山諸島",
+    "tags": [
+      "音楽",
+      "民謡",
+      "三線"
+    ],
+    "isHero": true,
+    "heroSectionComment": "伝統が息づく八重山の音色",
+    "createdAt": "2024-06-01T00:00:00.000Z",
+    "updatedAt": "2025-06-03T05:41:38.434Z"
+  }
+]
+>>>>>>> cf0cb43 (add: contents.json, islands.json データファイルをリモート反映)

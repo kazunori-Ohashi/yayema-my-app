@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": 1,
     "title": "石垣島",
     "description": "八重山諸島の中心的な島。美しいビーチや豊かな自然、独自の文化で知られる。",
@@ -12,3 +13,37 @@
     "mainImage": "/images/taketomi-feature.jpg"
   }
 ]
+=======
+    "id": "ishigaki",
+    "title": "石垣島",
+    "description": "八重山諸島最大の島。美しいビーチと活気ある市街地が魅力。",
+    "mainImage": "/images/ishigaki-feature.jpg",
+    "latitude": 24.3405,
+    "longitude": 124.1550
+  },
+  {
+    "id": "taketomi",
+    "title": "竹富島",
+    "description": "伝統的な赤瓦の家並みと白砂の道が美しい小さな島。",
+    "mainImage": "/images/taketomi-feature.jpg",
+    "latitude": 24.3282,
+    "longitude": 124.0807
+  },
+  {
+    "id": "iriomote",
+    "title": "西表島",
+    "description": "マングローブの森と亜熱帯のジャングルが広がる大自然の島。",
+    "mainImage": "/images/iriomote-feature.jpg",
+    "latitude": 24.2963,
+    "longitude": 123.8328
+  },
+  {
+    "id": "yubu",
+    "title": "由布島",
+    "description": "水牛車で渡ることで有名な小さな島。亜熱帯植物園も人気。",
+    "mainImage": "/images/yubu-island.jpg",
+    "latitude": 24.3500,
+    "longitude": 123.8417
+  }
+] 
+>>>>>>> cf0cb43 (add: contents.json, islands.json データファイルをリモート反映)
