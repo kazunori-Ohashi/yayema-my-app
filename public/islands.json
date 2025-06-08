@@ -1,19 +1,6 @@
 [
   {
-<<<<<<< HEAD
-    "id": 1,
-    "title": "石垣島",
-    "description": "八重山諸島の中心的な島。美しいビーチや豊かな自然、独自の文化で知られる。",
-    "mainImage": "/images/ishigaki-feature.jpg"
-  },
-  {
-    "id": 2,
-    "title": "竹富島",
-    "description": "赤瓦の伝統家屋と白砂の道が美しい、昔ながらの沖縄の風景が残る島。",
-    "mainImage": "/images/taketomi-feature.jpg"
-  }
-]
-=======
+
     "id": "ishigaki",
     "title": "石垣島",
     "description": "八重山諸島最大の島。美しいビーチと活気ある市街地が魅力。",
@@ -46,4 +33,4 @@
     "longitude": 123.8417
   }
 ] 
->>>>>>> cf0cb43 (add: contents.json, islands.json データファイルをリモート反映)
+
