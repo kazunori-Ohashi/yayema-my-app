@@ -3,13 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
-import type { Metadata } from "next"
 import { useState, useEffect } from "react"
-
-export const metadata: Metadata = {
-  title: "石垣島の観光スポット・グルメ・アクティビティ | 八重山観光ガイド",
-  description: "石垣島の美しいビーチやグルメ、アクティビティなど、観光に役立つ情報を網羅的に紹介します。",
-}
 
 export default function IshigakiPage() {
   const [spots, setSpots] = useState([])
