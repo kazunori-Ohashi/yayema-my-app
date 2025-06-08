@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "川平湾",
+    "description": "石垣島を代表する絶景スポット。透明度の高い海と白い砂浜が美しい。",
+    "mainImage": "/images/kabira.jpg",
+    "image": "/images/kabira.jpg",
+    "category": "観光スポット",
+    "location": "石垣島"
+  },
+  {
+    "id": 2,
+    "title": "米原ビーチ",
+    "description": "シュノーケリングに最適なビーチ。サンゴ礁と熱帯魚が豊富。",
+    "mainImage": "/images/yonehara.jpg",
+    "image": "/images/yonehara.jpg",
+    "category": "ビーチ",
+    "location": "石垣島"
+  }
+]
