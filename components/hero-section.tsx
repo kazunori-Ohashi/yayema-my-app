@@ -11,7 +11,7 @@ export default function HeroSection() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/contents")
+    fetch("/contents.json")
       .then((res) => res.json())
       .then((data) => {
         const heroSlides = data

@@ -27,7 +27,7 @@ export default function CardGallery() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/contents")
+    fetch("/contents.json")
       .then((res) => res.json())
       .then((data) => {
         const itemsWithMainImage = data.map((item) => ({
