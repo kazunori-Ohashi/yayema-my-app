@@ -1,15 +1,28 @@
-import { notFound } from "next/navigation";
+"use client";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 
-async function getIsland(id: string) {
-  const res = await fetch(`http://localhost:4000/api/islands/${id}`, { cache: "no-store" });
-  if (!res.ok) return null;
-  return res.json();
-}
+export default function IslandDetailPage() {
+  const params = useParams();
+  const [data, setData] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-export default async function IslandDetailPage({ params }: { params: { id: string } }) {
-  const data = await getIsland(params.id);
-  if (!data) return notFound();
+  useEffect(() => {
+    if (!params?.id) return;
+    fetch("/islands.json")
+      .then((res) => res.json())
+      .then((all: any[]) => {
+        const found = all.find((item: any) => item.id === params.id);
+        setData(found || null);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [params?.id]);
+
+  if (loading) return <div>読み込み中...</div>;
+  if (!data) return <div>データが見つかりません</div>;
 
   return (
     <div className="container mx-auto py-12 px-4 max-w-3xl">
@@ -19,9 +32,7 @@ export default async function IslandDetailPage({ params }: { params: { id: strin
           <Image src={data.mainImage} alt={data.title} width={800} height={400} className="w-full h-72 object-cover rounded-lg" unoptimized />
         )}
       </div>
-      <div className="mb-6 text-lg text-gray-700">
-        {data.description}
-      </div>
+      <div className="mb-6 text-lg text-gray-700">{data.description}</div>
     </div>
   );
 } 
