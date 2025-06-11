@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 管理画面・ローカルAPIをGit管理対象外に
+app/admin/
+app/api/

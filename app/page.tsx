@@ -2,6 +2,7 @@ import HeroSection from "@/components/hero-section"
 import PhotoGallery from "@/components/photo-gallery"
 import FeaturedDestinations from "@/components/featured-destinations"
 import ExperienceSection from "@/components/experience-section"
+import NewsSection from "@/components/news-section"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -20,6 +21,8 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <HeroSection />
+
+      <NewsSection />
 
       <div className="container mx-auto px-4 py-12">
         <FeaturedDestinations />
