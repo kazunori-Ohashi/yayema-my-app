@@ -5,15 +5,12 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-<<<<<<< HEAD
-=======
 
 const LANGUAGES = [
   { code: "ja", label: "日本語", flag: "🇯🇵" },
   { code: "en", label: "English", flag: "🇺🇸" },
   { code: "zh", label: "繁體中文", flag: "🇹🇼" },
 ];
->>>>>>> feature/i18n
 
 export default function IslandDetailPage() {
   const params = useParams();
@@ -46,8 +43,6 @@ export default function IslandDetailPage() {
 
   return (
     <main className="min-h-screen">
-<<<<<<< HEAD
-=======
       {/* 言語切替UI */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
         {LANGUAGES.map((l) => (
@@ -62,7 +57,6 @@ export default function IslandDetailPage() {
           </button>
         ))}
       </div>
->>>>>>> feature/i18n
       {/* ヒーローセクション */}
       <section className="relative h-[50vh] overflow-hidden">
         <div
@@ -76,14 +70,6 @@ export default function IslandDetailPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70" />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
-<<<<<<< HEAD
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">{island.title}</h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl">{island.description}</p>
-        </div>
-      </section>
-
-      {/* アクティビティ・スポットセクション */}
-=======
           <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">{island.title?.[lang] || island.title?.ja}</h1>
           {island.catchCopy && (
             <p className="text-xl md:text-2xl mb-4 max-w-2xl font-semibold text-[#ffe066] drop-shadow-lg">{island.catchCopy?.[lang] || island.catchCopy?.ja}</p>
@@ -91,9 +77,8 @@ export default function IslandDetailPage() {
           <p className="text-lg md:text-xl mb-8 max-w-2xl">{island.description?.[lang] || island.description?.ja}</p>
         </div>
       </section>
-
-      {/* 特徴セクション */}
-      {island.features && island.features.length > 0 && (
+            {/* 特徴セクション */}
+            {island.features && island.features.length > 0 && (
         <section className="py-10 container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-6 text-[#006666] text-center">{lang === 'en' ? 'Features' : lang === 'zh' ? '島嶼特色' : 'この島の特徴'}</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
@@ -147,7 +132,6 @@ export default function IslandDetailPage() {
       )}
 
       {/* アクティビティ・スポットセクション（ページ最下部に移動） */}
->>>>>>> feature/i18n
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center text-[#006666]">人気の観光スポット・アクティビティ</h2>
@@ -187,11 +171,6 @@ export default function IslandDetailPage() {
           </div>
         </div>
       </section>
-<<<<<<< HEAD
-
-      {/* アクセス情報やエリアガイドなど、必要に応じて追加可能 */}
-=======
->>>>>>> feature/i18n
     </main>
   );
-} 
+}
