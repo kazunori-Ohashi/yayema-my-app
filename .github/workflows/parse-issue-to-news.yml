@@ -1,5 +1,4 @@
 name: Parse Issue to News JSON
-
 on:
   issues:
     types: [opened, edited]
