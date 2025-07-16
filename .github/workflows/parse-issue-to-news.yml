@@ -1,0 +1,42 @@
+name: Parse Issue to News JSON
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  parse-issue-to-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: チェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.jsセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+
+      - name: Claude CLIセットアップ
+        run: |
+          npm install -g @anthropic-ai/claude-sdk-cli
+
+      - name: 依存パッケージインストール
+        run: |
+          cd my-app
+          npm ci
+
+      - name: イシュー内容をnews.jsonに反映
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: |
+          cd my-app
+          node scripts/parse-issue-to-news.js "$GITHUB_EVENT_PATH"
+
+      - name: news.jsonの変更をコミット・プッシュ
+        run: |
+          cd my-app
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/news.json
+          git commit -m "chore: news.json自動反映 [skip ci]" || echo "No changes to commit"
+          git push 
