@@ -3,23 +3,33 @@
 import { useEffect, useState } from "react"
 
 import Link from "next/link"
+import { useLanguage } from "@/context/language-context"
+
+type Multilang = { ja: string; en: string; zh: string }
+type Performer = Multilang
 
 type NewsItem = {
   id: string
   date: string
-  title: string
-  detail: string
+  title: Multilang
+  detail: Multilang
+  venue: Multilang
+  open_time: string
+  start_time: string
+  performers: Performer[]
+  fee: Multilang
+  contact: Multilang
   link: string
 }
 
 export default function NewsListPage() {
   const [news, setNews] = useState<NewsItem[]>([])
+  const { lang } = useLanguage()
 
   useEffect(() => {
     fetch("/news.json")
       .then((res) => res.json())
       .then((data: NewsItem[]) => {
-        // 日付降順で全件
         const sorted = [...data].sort((a, b) => b.date.localeCompare(a.date))
         setNews(sorted)
       })
@@ -35,12 +45,29 @@ export default function NewsListPage() {
             <li key={item.id} className="border-b pb-6">
               <div className="flex items-center gap-4 mb-2">
                 <span className="text-xs text-gray-500 w-24">{item.date}</span>
-                <span className="text-lg font-semibold text-black">{item.title}</span>
+                <span className="text-lg font-semibold text-black">{item.title?.[lang] || item.title?.ja || ""}</span>
               </div>
-              <div className="mb-2 text-gray-700 text-sm">{item.detail}</div>
-              <Link href={item.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
-                詳細・外部サイトへ
-              </Link>
+              {item.venue?.[lang] && (
+                <div className="text-xs text-gray-600 mt-1">会場: {item.venue[lang]}</div>
+              )}
+              {(item.open_time || item.start_time) && (
+                <div className="text-xs text-gray-600">開場: {item.open_time}　開演: {item.start_time}</div>
+              )}
+              {item.performers?.length > 0 && (
+                <div className="text-xs text-gray-600">出演: {item.performers.map(p => p[lang] || p.ja).join(", ")}</div>
+              )}
+              {item.fee?.[lang] && (
+                <div className="text-xs text-gray-600">料金: {item.fee[lang]}</div>
+              )}
+              {item.contact?.[lang] && (
+                <div className="text-xs text-blue-700 font-semibold mt-1">{item.contact[lang]}</div>
+              )}
+              {item.detail?.[lang] && (
+                <div className="text-xs text-gray-700 mt-1">{item.detail[lang]}</div>
+              )}
+              {item.link && (
+                <Link href={item.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-xs mt-1 block">詳細・外部サイトへ</Link>
+              )}
             </li>
           ))}
         </ul>
