@@ -30,7 +30,7 @@ const newsEventSchema = {
     performers: { type: 'array' },
     fee: { type: 'object' },
     contact: { type: 'object' },
-    link: { type: 'string' }
+    link: { type: 'object' }
   },
   additionalProperties: false
 };
@@ -42,14 +42,58 @@ if (!eventPath || !fs.existsSync(eventPath)) {
   process.exit(1);
 }
 const event = JSON.parse(fs.readFileSync(eventPath, 'utf-8'));
-const issueBody = event.issue && event.issue.body;
+let issueBody = event.issue && event.issue.body;
 if (!issueBody) {
   console.error('Issue本文が取得できません');
   process.exit(1);
 }
 
-// 2. Claude CLIでプロンプトを投げてJSON出力を得る
-const prompt = `以下のイベント情報をnews.json形式（多言語・新スキーマ）で厳密なJSON配列として出力してください。\n${issueBody}`;
+// トリガー文字（例: #NEWS_EVENT）を除外
+const TRIGGER = '#NEWS_EVENT';
+if (issueBody.trim().startsWith(TRIGGER)) {
+  issueBody = issueBody.trim().slice(TRIGGER.length).trim();
+}
+
+// Claude用最適化プロンプト
+const prompt = `以下の日本語イベント情報の塊を、news.jsonのスキーマ（下記）に従い、各イベントごとに
+- 日付、タイトル、詳細、会場、開場時間、開演時間、出演者、料金、問い合わせ先、リンク
+を正確に抽出し、必要に応じて空欄補完してください。
+
+さらに、各項目は
+- 日本語（ja）は元の日本語から
+- 英語（en）は日本語から正確に英訳
+- 中国語（zh）は日本語から正確に繁体字で中訳
+してください。
+
+出力は厳密なJSON配列（news.jsonの例に準拠）で返してください。
+
+【news.jsonスキーマ例】
+[
+  {
+    "id": "自動生成でOK",
+    "date": "YYYY-MM-DD または範囲",
+    "title": { "ja": "...", "en": "...", "zh": "..." },
+    "detail": { "ja": "...", "en": "...", "zh": "..." },
+    "venue": { "ja": "...", "en": "...", "zh": "..." },
+    "open_time": "18:00",
+    "start_time": "18:30",
+    "performers": [ { "ja": "...", "en": "...", "zh": "..." }, ... ],
+    "fee": { "ja": "...", "en": "...", "zh": "..." },
+    "contact": { "ja": "...", "en": "...", "zh": "..." },
+    "link": { "ja": "...", "en": "...", "zh": "..." }
+  }
+]
+
+【注意】
+- 英語（en）と中国語（zh）は、必ず日本語（ja）から自動翻訳してください。
+- 中国語（zh）は繁体字で出力してください。
+- performers（出演者）は個別に分割し、各言語で表記してください（固有名詞はカタカナやローマ字のままでOK）。
+- 日付や時間、金額なども適切に抽出してください。
+- 出力は厳密なJSON配列のみで、余計な説明やコメントは不要です。
+
+【日本語イベント情報】
+${issueBody}`;
+
 let llmOutput;
 try {
   llmOutput = execSync(`claude -p ${JSON.stringify(prompt)} --output-format json`, { encoding: 'utf-8', env: process.env });
