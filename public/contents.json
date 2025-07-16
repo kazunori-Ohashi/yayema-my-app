@@ -1,10 +1,9 @@
 [
   {
-
     "id": "kabira-bay",
-    "title": "川平湾",
+    "title": {"ja": "川平湾", "en": "Kabira Bay", "zh": "川平灣"},
     "category": "beach",
-    "description": "透明度の高い美しい海が広がる、石垣島を代表する景勝地。グラスボートからは多彩な珊瑚礁や熱帯魚が見られます。",
+    "description": {"ja": "透明度の高い美しい海が広がる、石垣島を代表する景勝地。グラスボートからは多彩な珊瑚礁や熱帯魚が見られます。", "en": "A scenic spot representing Ishigaki Island with beautiful, clear waters. You can see various coral reefs and tropical fish from glass boats.", "zh": "石垣島代表性的景勝地，擁有高透明度的美麗海洋。乘坐玻璃船可欣賞多彩的珊瑚礁和熱帶魚。"},
     "image": [
       "/images/kabira-bay.jpg",
       "https://example.com/images/kabira-bay.jpg"
@@ -15,15 +14,15 @@
       "シュノーケリング"
     ],
     "isHero": false,
-    "heroSectionComment": "石垣島随一の絶景スポット",
+    "heroSectionComment": {"ja": "石垣島随一の絶景スポット", "en": "The most spectacular scenic spot in Ishigaki Island", "zh": "石垣島最壯觀的景點"},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2025-06-03T07:03:20.063Z"
   },
   {
     "id": "yonehara-beach",
-    "title": "米原ビーチ",
+    "title": {"ja": "米原ビーチ", "en": "Yonehara Beach", "zh": "米原海灘"},
     "category": "beach",
-    "description": "シュノーケリングに最適な美しいビーチ。浅瀬でも色とりどりの魚や珊瑚礁を観察できます。",
+    "description": {"ja": "シュノーケリングに最適な美しいビーチ。浅瀬でも色とりどりの魚や珊瑚礁を観察できます。", "en": "A beautiful beach perfect for snorkeling. You can observe colorful fish and coral reefs even in shallow waters.", "zh": "最適合浮潛的美麗海灘。即使在淺灘也能觀察到色彩繽紛的魚類和珊瑚礁。"},
     "image": [
       "/images/yonehara-beach.jpg",
       "https://example.com/images/yonehara-beach.jpg"
@@ -34,7 +33,7 @@
       "シュノーケリング"
     ],
     "isHero": true,
-    "heroSectionComment": "夕日が素敵！",
+    "heroSectionComment": {"ja": "夕日が素敵！", "en": "Beautiful sunset!", "zh": "夕陽很美！"},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2025-06-03T06:40:09.190Z",
     "latitude": 24.451889,
@@ -42,9 +41,9 @@
   },
   {
     "id": "ishigaki-beef",
-    "title": "石垣牛グルメ",
+    "title": {"ja": "石垣牛グルメ", "en": "Ishigaki Beef Gourmet", "zh": "石垣牛美食"},
     "category": "gourmet",
-    "description": "石垣島が誇るブランド牛「石垣牛」。島内の様々なレストランで味わえます。",
+    "description": {"ja": "石垣島が誇るブランド牛「石垣牛」。島内の様々なレストランで味わえます。", "en": "Ishigaki Island's proud brand beef 'Ishigaki Beef'. You can enjoy it at various restaurants on the island.", "zh": "石垣島引以為傲的品牌牛『石垣牛』。可在島內各種餐廳品嚐。"},
     "image": [
       "/images/ishigaki-beef.jpg",
       "https://example.com/images/ishigaki-beef.jpg"
@@ -55,15 +54,15 @@
       "石垣牛"
     ],
     "isHero": true,
-    "heroSectionComment": "牛！",
+    "heroSectionComment": {"ja": "牛！", "en": "Beef!", "zh": "牛！"},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2025-06-04T01:50:37.237Z"
   },
   {
     "id": "taketomi-village",
-    "title": "竹富島の町並み",
+    "title": {"ja": "竹富島の町並み", "en": "Taketomi Village Scenery", "zh": "竹富島街景"},
     "category": "culture",
-    "description": "伝統的な琉球の集落と文化が色濃く残る竹富島の町並み。赤瓦の家並みと白砂の道が特徴。",
+    "description": {"ja": "伝統的な琉球の集落と文化が色濃く残る竹富島の町並み。赤瓦の家並みと白砂の道が特徴。", "en": "The streets of Taketomi Island, where traditional Ryukyu villages and culture remain strong. Characterized by red-tiled houses and white sand roads.", "zh": "保留著濃厚傳統琉球聚落與文化的竹富島街道。紅瓦屋頂與白沙道路是其特色。"},
     "image": [
       "/images/taketomi-village.jpg",
       "https://example.com/images/taketomi-village.jpg"
@@ -74,15 +73,15 @@
       "伝統家屋"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "mariyudu-falls",
-    "title": "マリユドゥの滝",
+    "title": {"ja": "マリユドゥの滝", "en": "Mariyudu Falls", "zh": "馬利尤杜瀑布"},
     "category": "nature",
-    "description": "西表島にある日本の滝百選にも選ばれた美しい滝。トレッキングで訪れる秘境。",
+    "description": {"ja": "西表島にある日本の滝百選にも選ばれた美しい滝。トレッキングで訪れる秘境。", "en": "A beautiful waterfall on Iriomote Island, selected as one of Japan's Top 100 Waterfalls. A hidden gem accessible by trekking.", "zh": "位於西表島，被選為日本百大瀑布的美麗瀑布。需徒步才能到達的秘境。"},
     "image": [
       "/images/mariyudu-falls.jpg",
       "https://example.com/images/mariyudu-falls.jpg"
@@ -93,15 +92,15 @@
       "トレッキング"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "yubu-island",
-    "title": "由布島",
+    "title": {"ja": "由布島", "en": "Yubu Island", "zh": "由布島"},
     "category": "nature",
-    "description": "水牛車で渡ることで有名な小さな島。亜熱帯植物園や水牛体験が人気。",
+    "description": {"ja": "水牛車で渡ることで有名な小さな島。亜熱帯植物園や水牛体験が人気。", "en": "A small island famous for crossing by water buffalo cart. The subtropical botanical garden and water buffalo experience are popular.", "zh": "以水牛車渡海聞名的小島。亞熱帶植物園和水牛體驗很受歡迎。"},
     "image": [
       "/images/yubu-island.jpg",
       "https://example.com/images/yubu-island.jpg"
@@ -112,15 +111,15 @@
       "水牛車"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "ishigaki-feature",
-    "title": "石垣島",
+    "title": {"ja": "石垣島", "en": "Ishigaki Island", "zh": "石垣島"},
     "category": "nature",
-    "description": "美しいビーチと活気ある市街地",
+    "description": {"ja": "美しいビーチと活気ある市街地", "en": "Beautiful beaches and a vibrant city center", "zh": "美麗的海灘和充滿活力的市區"},
     "image": [
       "/images/ishigaki-feature.jpg",
       "https://example.com/images/ishigaki-feature.jpg"
@@ -131,15 +130,15 @@
       "観光"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "taketomi-feature",
-    "title": "竹富島",
+    "title": {"ja": "竹富島", "en": "Taketomi Island", "zh": "竹富島"},
     "category": "culture",
-    "description": "伝統的な琉球の集落と文化",
+    "description": {"ja": "伝統的な琉球の集落と文化", "en": "Traditional Ryukyu villages and culture", "zh": "傳統琉球聚落與文化"},
     "image": [
       "/images/taketomi-feature.jpg",
       "https://example.com/images/taketomi-feature.jpg"
@@ -150,15 +149,15 @@
       "文化"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "iriomote-feature",
-    "title": "西表島",
+    "title": {"ja": "西表島", "en": "Iriomote Island", "zh": "西表島"},
     "category": "nature",
-    "description": "マングローブの森と亜熱帯のジャングル",
+    "description": {"ja": "マングローブの森と亜熱帯のジャングル", "en": "Mangrove forests and subtropical jungle", "zh": "紅樹林與亞熱帶叢林"},
     "image": [
       "/images/iriomote-feature.jpg",
       "https://example.com/images/iriomote-feature.jpg"
@@ -169,15 +168,15 @@
       "自然"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "snorkeling",
-    "title": "シュノーケリング",
+    "title": {"ja": "シュノーケリング", "en": "Snorkeling", "zh": "浮潛"},
     "category": "nature",
-    "description": "透明度抜群の海で色とりどりの熱帯魚と泳ぐ",
+    "description": {"ja": "透明度抜群の海で色とりどりの熱帯魚と泳ぐ", "en": "Swim with colorful tropical fish in crystal-clear waters", "zh": "在透明度極高的海域與色彩繽紛的熱帶魚共游"},
     "image": [
       "/images/snorkeling.jpg",
       "https://example.com/images/snorkeling.jpg"
@@ -188,15 +187,15 @@
       "海"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "kayaking",
-    "title": "マングローブカヤック",
+    "title": {"ja": "マングローブカヤック", "en": "Mangrove Kayak", "zh": "紅樹林獨木舟"},
     "category": "nature",
-    "description": "西表島の原生林をカヤックで探検する冒険",
+    "description": {"ja": "西表島の原生林をカヤックで探検する冒険", "en": "An adventure exploring the primeval forests of Iriomote Island by kayak", "zh": "在西表島的原始森林中划獨木舟探險"},
     "image": [
       "/images/kayaking.jpg",
       "https://example.com/images/kayaking.jpg"
@@ -207,15 +206,15 @@
       "カヤック"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "star-gazing",
-    "title": "星空観察",
+    "title": {"ja": "星空観察", "en": "Star Gazing", "zh": "觀星"},
     "category": "nature",
-    "description": "光害の少ない島で満天の星空を堪能",
+    "description": {"ja": "光害の少ない島で満天の星空を堪能", "en": "Enjoy a star-filled sky on an island with little light pollution", "zh": "在光害極少的島嶼上欣賞滿天星斗"},
     "image": [
       "/images/star-gazing.jpg",
       "https://example.com/images/star-gazing.jpg"
@@ -226,15 +225,15 @@
       "星空"
     ],
     "isHero": false,
-    "heroSectionComment": "",
+    "heroSectionComment": {"ja": "", "en": "", "zh": ""},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2024-06-01T00:00:00.000Z"
   },
   {
     "id": "yaeyama-music",
-    "title": "八重山の音楽",
+    "title": {"ja": "八重山の音楽", "en": "Yaeyama Music", "zh": "八重山音樂"},
     "category": "culture",
-    "description": "歴史ある八重山民謡を演奏してみよう。三線や民謡ライブ体験も人気。",
+    "description": {"ja": "歴史ある八重山民謡を演奏してみよう。三線や民謡ライブ体験も人気。", "en": "Try playing the historic Yaeyama folk songs. Sanshin and folk music live experiences are also popular.", "zh": "體驗歷史悠久的八重山民謠。三線和民謠現場體驗也很受歡迎。"},
     "image": [
       "/images/hero-1.jpg",
       "https://example.com/images/hero-1.jpg"
@@ -246,7 +245,7 @@
       "三線"
     ],
     "isHero": true,
-    "heroSectionComment": "伝統が息づく八重山の音色",
+    "heroSectionComment": {"ja": "伝統が息づく八重山の音色", "en": "The sound of Yaeyama's living tradition", "zh": "八重山傳統的音色"},
     "createdAt": "2024-06-01T00:00:00.000Z",
     "updatedAt": "2025-06-03T05:41:38.434Z"
   }

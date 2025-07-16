@@ -5,6 +5,18 @@ import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Bookmark, Heart, ChevronRight } from "lucide-react"
+import { useWindowSize } from "@/hooks/use-window-size"
+import { useLanguage } from "@/context/language-context"
+
+type PhotoItem = {
+  id: string
+  title: { ja: string; en: string; zh: string }
+  image: string | string[]
+  description: { ja: string; en: string; zh: string }
+  location?: string
+  tags: string[]
+  mainImage?: string
+}
 
 type PhotoGalleryProps = {
   id: string
@@ -15,8 +27,10 @@ type PhotoGalleryProps = {
 export default function PhotoGallery({ id, title, subtitle }: PhotoGalleryProps) {
   const [selectedFilter, setSelectedFilter] = useState("all")
   const [isClient, setIsClient] = useState(false)
-  const [photos, setPhotos] = useState([])
+  const [photos, setPhotos] = useState<PhotoItem[]>([])
   const [loading, setLoading] = useState(true)
+  const { width } = useWindowSize()
+  const { lang } = useLanguage()
 
   useEffect(() => {
     setIsClient(true)
@@ -25,13 +39,13 @@ export default function PhotoGallery({ id, title, subtitle }: PhotoGalleryProps)
   useEffect(() => {
     fetch("/contents.json")
       .then((res) => res.json())
-      .then((data) => {
+      .then((data: PhotoItem[]) => {
         const photosWithMainImage = data.map((photo) => ({
           ...photo,
           mainImage: Array.isArray(photo.image) ? photo.image[0] : photo.image || "",
-        }));
-        setPhotos(photosWithMainImage);
-        setLoading(false);
+        }))
+        setPhotos(photosWithMainImage)
+        setLoading(false)
       })
       .catch(() => setLoading(false))
   }, [])
@@ -104,7 +118,7 @@ export default function PhotoGallery({ id, title, subtitle }: PhotoGalleryProps)
                   {src !== '' ? (
                     <Image
                       src={src}
-                      alt={photo.title}
+                      alt={photo.title?.[lang] || photo.title?.ja || ''}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -120,7 +134,7 @@ export default function PhotoGallery({ id, title, subtitle }: PhotoGalleryProps)
                       {photo.location}
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold mb-1">{photo.title}</h3>
+                  <h3 className="text-xl font-bold mb-1">{photo.title?.[lang] || photo.title?.ja || ''}</h3>
                   <div className="flex flex-wrap gap-2">
                     {photo.tags.map((tag) => (
                       <span key={tag} className="text-xs bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full">

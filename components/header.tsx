@@ -5,8 +5,10 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu, X, Search } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
+import { useLanguage } from "@/context/language-context"
 
 export default function Header() {
+  const { lang, setLang, LANGUAGES } = useLanguage()
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -31,30 +33,7 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto px-4 h-full flex items-center justify-between">
-        <Link href="/" className="flex items-center">
-          {/* テキストベースのロゴに変更 */}
-          <div className="bg-[#006666] text-white p-2 w-10 h-10 flex items-center justify-center rounded-sm">
-            <span className="text-xl font-bold">Y</span>
-          </div>
-          <div className="ml-3">
-            <h1
-              className={`font-bold transition-all duration-300 ${
-                isScrolled ? "text-[#006666] text-base" : "text-white text-lg drop-shadow-md"
-              }`}
-            >
-              八重山観光ガイド
-            </h1>
-            <p
-              className={`text-xs transition-all duration-300 ${
-                isScrolled ? "text-gray-600" : "text-white/90 drop-shadow-md"
-              }`}
-            >
-              石垣島・竹富島・西表島の旅情報
-            </p>
-          </div>
-        </Link>
-
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="flex items-center space-x-8">
           {navItems.map((item) => (
             <Link
               key={item.label}
@@ -77,7 +56,19 @@ export default function Header() {
             <Search size={20} />
           </button>
         </nav>
-
+        <div className="flex items-center space-x-2">
+          {LANGUAGES.map((l) => (
+            <button
+              key={l.code}
+              aria-label={l.label}
+              className={`flex items-center px-3 py-1 mx-1 rounded-full border ${lang === l.code ? "bg-[#006666] text-white" : "bg-white text-[#006666]"}`}
+              onClick={() => setLang(l.code)}
+            >
+              <span className="mr-1 text-xl">{l.flag}</span>
+              <span className="text-sm font-bold">{l.label}</span>
+            </button>
+          ))}
+        </div>
         <button
           className={`md:hidden p-2 rounded-full transition-colors duration-300 ${
             isScrolled ? "text-gray-700" : "text-white"

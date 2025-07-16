@@ -1,35 +1,77 @@
 [
   {
-
     "id": "ishigaki",
-    "title": "石垣島",
-    "description": "八重山諸島最大の島。美しいビーチと活気ある市街地が魅力。",
+    "title": {"ja": "石垣島", "en": "Ishigaki Island", "zh": "石垣島"},
+    "description": {
+      "ja": "八重山諸島最大の島。美しいビーチと活気ある市街地が魅力。",
+      "en": "The largest island in the Yaeyama Islands. Beautiful beaches and a vibrant city center are its attractions.",
+      "zh": "八重山群島中最大的島嶼。擁有美麗的海灘和充滿活力的市區。"
+    },
     "mainImage": "/images/ishigaki-feature.jpg",
     "latitude": 24.3405,
-    "longitude": 124.1550
+    "longitude": 124.155,
+    "catchCopy": {
+      "ja": "これはどこ？",
+      "en": "Where is this?",
+      "zh": "這是哪裡？"
+    },
+    "features": [
+      {"ja": "これは２", "en": "This is 2", "zh": "這是2"}
+    ],
+    "access": {
+      "ja": "那覇空港から約1時間、東京（羽田・成田）から約3時間15分、大阪（関西国際空港）から約2時間40分で到着します。\n島内の移動\n\nバス、タクシー、レンタカー、レンタサイクルなどが利用できます。石垣島を効率よく観光するには、レンタカーがおすすめです。\n離島へのアクセス\n\n石垣港離島ターミナルから竹富島や西表島などへの高速船が出ています。所要時間は行き先によって10分〜60分程度です。",
+      "en": "About 1 hour from Naha Airport, about 3 hours 15 minutes from Tokyo (Haneda/Narita), and about 2 hours 40 minutes from Osaka (Kansai International Airport).\nGetting around the island\n\nBuses, taxis, rental cars, and rental bicycles are available. For efficient sightseeing, rental cars are recommended.\nAccess to other islands\n\nHigh-speed ferries depart from Ishigaki Port Remote Island Terminal to Taketomi Island, Iriomote Island, etc. Travel time varies from 10 to 60 minutes depending on the destination.",
+      "zh": "從那霸機場約1小時，從東京（羽田・成田）約3小時15分，從大阪（關西國際機場）約2小時40分可抵達。\n島內交通\n\n可利用巴士、計程車、租車、租自行車等。若要高效觀光，推薦租車。\n前往離島\n\n從石垣港離島碼頭有高速船前往竹富島、西表島等。所需時間依目的地約10至60分鐘。"
+    },
+    "areas": [
+      {
+        "name": {"ja": "駅前", "en": "Station Area", "zh": "車站前"},
+        "description": {
+          "ja": "島の中心部。飲食店やショップが立ち並び、市場や港もあります。",
+          "en": "The center of the island. There are many restaurants and shops, as well as a market and port.",
+          "zh": "島上的中心地帶。有許多餐廳和商店，也有市場和港口。"
+        },
+        "image": "",
+        "spots": [
+          {"ja": "", "en": "", "zh": ""}
+        ]
+      }
+    ]
   },
   {
     "id": "taketomi",
-    "title": "竹富島",
-    "description": "伝統的な赤瓦の家並みと白砂の道が美しい小さな島。",
+    "title": {"ja": "竹富島", "en": "Taketomi Island", "zh": "竹富島"},
+    "description": {
+      "ja": "伝統的な赤瓦の家並みと白砂の道が美しい小さな島。",
+      "en": "A small island with beautiful traditional red-tiled houses and white sand roads.",
+      "zh": "擁有傳統紅瓦屋頂和白沙道路的美麗小島。"
+    },
     "mainImage": "/images/taketomi-feature.jpg",
     "latitude": 24.3282,
     "longitude": 124.0807
   },
   {
     "id": "iriomote",
-    "title": "西表島",
-    "description": "マングローブの森と亜熱帯のジャングルが広がる大自然の島。",
+    "title": {"ja": "西表島", "en": "Iriomote Island", "zh": "西表島"},
+    "description": {
+      "ja": "マングローブの森と亜熱帯のジャングルが広がる大自然の島。",
+      "en": "An island of great nature with mangrove forests and subtropical jungles.",
+      "zh": "擁有紅樹林和亞熱帶叢林的自然之島。"
+    },
     "mainImage": "/images/iriomote-feature.jpg",
     "latitude": 24.2963,
     "longitude": 123.8328
   },
   {
     "id": "yubu",
-    "title": "由布島",
-    "description": "水牛車で渡ることで有名な小さな島。亜熱帯植物園も人気。",
+    "title": {"ja": "由布島", "en": "Yubu Island", "zh": "由布島"},
+    "description": {
+      "ja": "水牛車で渡ることで有名な小さな島。亜熱帯植物園も人気。",
+      "en": "A small island famous for crossing by water buffalo cart. The subtropical botanical garden is also popular.",
+      "zh": "以水牛車渡海聞名的小島。亞熱帶植物園也很受歡迎。"
+    },
     "mainImage": "/images/yubu-island.jpg",
-    "latitude": 24.3500,
+    "latitude": 24.35,
     "longitude": 123.8417
   }
-] 
+]
