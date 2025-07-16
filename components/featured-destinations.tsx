@@ -5,10 +5,14 @@ import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronRight } from "lucide-react"
+import { useLanguage } from "@/context/language-context"
+import { useWindowSize } from "@/hooks/use-window-size"
 
 export default function FeaturedDestinations() {
-  const [islands, setIslands] = useState([])
+  const [islands, setIslands] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
+  const { lang, LANGUAGES, setLang } = useLanguage()
+  const { width } = useWindowSize()
 
   useEffect(() => {
     fetch("/islands.json")
@@ -38,7 +42,7 @@ export default function FeaturedDestinations() {
               {island.mainImage && (
                 <Image
                   src={island.mainImage}
-                  alt={island.title}
+                  alt={island.title?.[lang] || island.title?.ja || ""}
                   width={400}
                   height={250}
                   className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-200"
@@ -46,8 +50,8 @@ export default function FeaturedDestinations() {
                 />
               )}
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{island.title}</h3>
-                <p className="text-gray-600 mb-2">{island.description}</p>
+                <h3 className="text-xl font-bold mb-2">{island.title?.[lang] || island.title?.ja || ""}</h3>
+                <p className="text-gray-600 mb-2">{island.description?.[lang] || island.description?.ja || ""}</p>
               </div>
             </div>
           </Link>

@@ -4,11 +4,15 @@ import { useState, useEffect } from "react"
 import { ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { useLanguage } from "@/context/language-context"
+import { useWindowSize } from "@/hooks/use-window-size"
 
 export default function HeroSection() {
   const [slides, setSlides] = useState([])
   const [currentSlide, setCurrentSlide] = useState(0)
   const [loading, setLoading] = useState(true)
+  const { lang } = useLanguage()
+  const { width } = useWindowSize()
 
   useEffect(() => {
     fetch("/contents.json")
@@ -44,7 +48,7 @@ export default function HeroSection() {
 
   const current = slides[currentSlide]
   const src = typeof current.mainImage === "string" ? current.mainImage.trim() : ""
-  const heroComment = current.heroSectionComment && current.heroSectionComment.trim() !== '' ? current.heroSectionComment : current.description
+  const heroComment = current.heroSectionComment?.[lang] && current.heroSectionComment?.[lang].trim() !== '' ? current.heroSectionComment[lang] : current.description?.[lang] || ""
 
   return (
     <section className="relative w-full h-[40vh] overflow-hidden">
@@ -60,7 +64,7 @@ export default function HeroSection() {
       )}
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/40 pointer-events-none" />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight drop-shadow-lg">{current.title}</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight drop-shadow-lg">{current.title?.[lang] || current.title?.ja || ""}</h1>
         <p className="text-xl md:text-2xl mb-6 drop-shadow">{heroComment}</p>
         <Button className="bg-[#006666] hover:bg-[#004444] text-white px-8 py-6 rounded-full text-lg">
           観光スポットを探す <ChevronRight className="ml-2 h-5 w-5" />
