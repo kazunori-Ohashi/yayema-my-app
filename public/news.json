@@ -1,11 +1,11 @@
 [
   {
-    "id": "90ebf613-f5db-472e-83be-9ef8d7d7edf8",
+    "id": "4a128f87-5f45-403e-b7da-5aff52f253c8",
     "date": "2025-07-27",
     "title": {
       "ja": "衣・食・住健康づくりセミナー",
-      "en": "Clothing, Food, Housing & Health Improvement Seminar",
-      "zh": "衣食住健康促進講座"
+      "en": "Clothing, Food, Housing, and Health Improvement Seminar",
+      "zh": "衣食住健康促進研習會"
     },
     "detail": {
       "ja": "",
@@ -38,8 +38,8 @@
     ],
     "fee": {
       "ja": "参加無料",
-      "en": "",
-      "zh": ""
+      "en": "Free admission",
+      "zh": "免費參加"
     },
     "contact": {
       "ja": "0980-82-3210",
@@ -53,12 +53,12 @@
     }
   },
   {
-    "id": "9ea18d34-6a25-46f5-9170-d72d1389f387",
+    "id": "ecd3e6bd-b333-4222-be5d-a60755c19697",
     "date": "2025-07-21",
     "title": {
       "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムde上方落語",
-      "en": "",
-      "zh": ""
+      "en": "Hoshi no Umi Planetarium 6th Anniversary - Kamigata Rakugo at the Planetarium",
+      "zh": "星之海天文館6周年紀念 天文館上方落語"
     },
     "detail": {
       "ja": "",
@@ -68,10 +68,10 @@
     "venue": {
       "ja": "石垣島星ノ海プラネタリウム",
       "en": "Ishigaki Island Hoshi no Umi Planetarium",
-      "zh": "石垣島星之海天象館"
+      "zh": "石垣島星之海天象儀"
     },
     "open_time": "",
-    "start_time": "15:00, 19:00",
+    "start_time": "15:00/19:00",
     "performers": [],
     "fee": {
       "ja": "2,500円",
@@ -90,17 +90,17 @@
     }
   },
   {
-    "id": "9d10f770-581a-4e4f-81f3-eb7c8b13b9a1",
+    "id": "44c4b233-6425-4363-9d54-fcbafc1e0e84",
     "date": "2025-07-19, 2025-07-20",
     "title": {
       "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
-      "en": "",
-      "zh": ""
+      "en": "Screening of the movie \"Dragon Heart: Chronicle of the Spirit World\"",
+      "zh": "電影《龍心：靈界探訪記》上映"
     },
     "detail": {
-      "ja": "大好評につき追加開催決定！二週続ランクイン大ヒット！インド映画祭続々受賞！",
-      "en": "Due to popular demand, additional screenings have been decided! Two consecutive weeks of ranking success! Continuous awards at Indian film festivals!",
-      "zh": "因大受好評決定追加上映！連續兩週排行榜大熱門！印度電影節連續獲獎！"
+      "ja": "大好評につき追加開催決定！二過続ランクイン大ヒット！インド映画祭続々受賞！",
+      "en": "Due to popular demand, additional screenings have been decided! Consecutive ranking hit! Continuously winning awards at Indian film festivals!",
+      "zh": "因大受好評決定追加放映！連續兩次入榜大熱門！印度電影節連續獲獎！"
     },
     "venue": {
       "ja": "石垣市民会館中ホール",
@@ -108,7 +108,7 @@
       "zh": "石垣市民會館中廳"
     },
     "open_time": "",
-    "start_time": "10:00, 14:00, 19:00",
+    "start_time": "10:00/14:00/19:00",
     "performers": [],
     "fee": {
       "ja": "",
@@ -127,12 +127,12 @@
     }
   },
   {
-    "id": "dbb6eff0-19df-4b9f-aebc-8fe2a24fdb7b",
+    "id": "fafdd0e1-dde3-480a-b0a8-53abc8b86703",
     "date": "2025-07-19",
     "title": {
       "ja": "工藤正ニメモリアルライブ ウッドベース復活記念",
-      "en": "Kudo Masani Memorial Live - Wood Bass Revival Commemoration",
-      "zh": "工藤正二紀念演唱會 木貝斯復活紀念"
+      "en": "",
+      "zh": ""
     },
     "detail": {
       "ja": "",
@@ -175,17 +175,17 @@
     }
   },
   {
-    "id": "7b85b562-aedf-433f-9ea1-a5594e0f8273",
+    "id": "a0be95ad-e67d-430f-9220-33f8edb00940",
     "date": "2025-07-19",
     "title": {
       "ja": "cucule Re-Opening DJ Night",
-      "en": "",
-      "zh": ""
+      "en": "cucule Re-Opening DJ Night",
+      "zh": "cucule Re-Opening DJ Night"
     },
     "detail": {
-      "ja": "この夏、石垣島ホテルククルが一部内装をリニューアル第一弾イベントを開催します！",
-      "en": "This summer, Ishigaki Island Hotel Kukuru will hold the first renovation event with partial interior renewal!",
-      "zh": "今年夏天，石垣島庫庫魯酒店將舉辦部分內裝翻新第一階段活動！"
+      "ja": "この夏、石垣島ホテルククルが一部内装をリニューアル一弾イベントを開催します！",
+      "en": "This summer, Ishigaki Island Hotel Kukuru will hold a first-phase event with partial interior renovation!",
+      "zh": "今年夏天，石垣島酒店庫庫魯將舉辦部分內裝翻新第一階段活動！"
     },
     "venue": {
       "ja": "蔵元 SAKE & GALLERY（石垣島ホテルククル1F）",
@@ -209,12 +209,27 @@
         "ja": "Marseille",
         "en": "Marseille",
         "zh": "馬賽"
+      },
+      {
+        "ja": "T",
+        "en": "T",
+        "zh": "T"
+      },
+      {
+        "ja": "T",
+        "en": "T",
+        "zh": "T"
+      },
+      {
+        "ja": "WORKS",
+        "en": "WORKS",
+        "zh": "作品"
       }
     ],
     "fee": {
       "ja": "前売 1,500円",
       "en": "Advance sale 1,500 yen",
-      "zh": "預售 1,500日圓"
+      "zh": "預售 1,500 日圓"
     },
     "contact": {
       "ja": "0980-82-3380（担当：富村）",
@@ -228,22 +243,22 @@
     }
   },
   {
-    "id": "1997eefe-d4d9-4c91-bc4c-4f83a873d654",
+    "id": "12924c49-c34e-4ca3-89dc-342e6d9d5cdd",
     "date": "2025-07-18",
     "title": {
       "ja": "昭和歌謡ナイト9",
-      "en": "",
-      "zh": ""
+      "en": "Showa Kayou Night 9",
+      "zh": "昭和歌謠之夜9"
     },
     "detail": {
       "ja": "毎回大盛況の輝かしい昭和の名曲イベント第9発！",
-      "en": "The 9th brilliant Showa era famous songs event, a huge success every time!",
+      "en": "The 9th brilliant Showa era famous songs event, which is always a great success!",
       "zh": "每次都大受歡迎的輝煌昭和名曲活動第9彈！"
     },
     "venue": {
       "ja": "CITY JACK",
-      "en": "",
-      "zh": ""
+      "en": "CITY JACK",
+      "zh": "CITY JACK"
     },
     "open_time": "19:00",
     "start_time": "20:00",
@@ -265,7 +280,7 @@
     }
   },
   {
-    "id": "4a9cb0e6-cb68-48a7-bdea-b0d5718a3c87",
+    "id": "582b704c-84fb-4c75-bf66-2755a3584b58",
     "date": "2025-07-13",
     "title": {
       "ja": "昭和DISCOナイト",
@@ -279,8 +294,8 @@
     },
     "venue": {
       "ja": "CITY JACK",
-      "en": "",
-      "zh": ""
+      "en": "CITY JACK",
+      "zh": "CITY JACK"
     },
     "open_time": "19:00",
     "start_time": "20:00",
@@ -299,7 +314,7 @@
     "fee": {
       "ja": "2,000円（別途ドリンク）",
       "en": "2,000 yen (drinks not included)",
-      "zh": "2,000日圓（飲料另計）"
+      "zh": "2,000日圓（飲品另計）"
     },
     "contact": {
       "ja": "0980-88-6689",
@@ -313,7 +328,7 @@
     }
   },
   {
-    "id": "62ee892d-dc6c-4c0e-abd2-a3f7b8b96672",
+    "id": "d2fc6ef8-9c48-475b-825c-4b687bebab03",
     "date": "2025-07-01〜2025-07-27",
     "title": {
       "ja": "Namiki展「南の島の動園 vol.3」",
@@ -321,14 +336,14 @@
       "zh": "Namiki展「南方島嶼動物園 vol.3」"
     },
     "detail": {
-      "ja": "PLAY WITH COLORーいるであそぶーをテーマにカラフルな動物の作品を作り続けているアーティスト「Namiki」の最新展開催！",
-      "en": "Latest exhibition by artist \"Namiki\" now open, featuring colorful animal artworks with the theme \"PLAY WITH COLOR - Playing with Colors\"!",
-      "zh": "以「PLAY WITH COLOR－用色彩遊戲」為主題，持續創作繽紛動物作品的藝術家「Namiki」最新展覽開幕！"
+      "ja": "PLAY WITH COLORーいるであそぶーをテーマにカラフルな動物の作品を休り続けているアーティスト「Namiki」の最新展開催！",
+      "en": "Latest exhibition by artist \"Namiki\" is being held, featuring colorful animal artworks with the theme \"PLAY WITH COLOR - Playing with Colors\"!",
+      "zh": "以「PLAY WITH COLOR－用色彩遊戯」為主題，持續創作色彩繽紛動物作品的藝術家「Namiki」最新展覽開催！"
     },
     "venue": {
       "ja": "蔵元 SAKE & GALLERY（石垣島ホテルククル1F）",
-      "en": "Kuramoto SAKE & GALLERY (Ishigaki Island Hotel Kukuru 1F)",
-      "zh": "蔵元 SAKE & GALLERY（石垣島酒店庫庫魯1樓）"
+      "en": "Brewery SAKE & GALLERY (Ishigaki Island Hotel Kukuru 1F)",
+      "zh": "酒莊 SAKE & GALLERY（石垣島酒店庫庫魯1樓）"
     },
     "open_time": "10:00",
     "start_time": "",
