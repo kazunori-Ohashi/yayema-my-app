@@ -1,11 +1,11 @@
 [
   {
-    "id": "fcb679ac-6462-4396-ba48-b33045376ad8",
+    "id": "b682cf60-c5af-4b79-b455-7a9428273b5c",
     "date": "2025-07-27",
     "title": {
       "ja": "衣・食・住健康づくりセミナー",
-      "en": "080-3246-1074",
-      "zh": "080-3246-1074"
+      "en": "Clothing, Food & Housing Health Seminar",
+      "zh": "衣食住健康講座"
     },
     "detail": {
       "ja": "",
@@ -13,38 +13,38 @@
       "zh": ""
     },
     "venue": {
-      "ja": "石垣市健康福祉センター 2階視聴覚室",
-      "en": "Venue:",
-      "zh": "會場:"
+      "ja": "石垣市健康福祉センター2階視聴覚室",
+      "en": "Ishigaki City Health and Welfare Center 2F Audiovisual Room",
+      "zh": "石垣市健康福祉中心2樓視聽室"
     },
     "open_time": "開演時間: 13:30",
     "start_time": "13:30",
     "performers": [
       {
         "ja": "長崎拓",
-        "en": "Screening of \"Dragon Heart - Spirit World Exploration\"",
-        "zh": "電影「龍之心－靈界探訪記」上映"
+        "en": "Nagasaki Taku",
+        "zh": "長崎拓"
       },
       {
         "ja": "花谷よゆー",
-        "en": "",
-        "zh": ""
+        "en": "Hanatani Yoyuu",
+        "zh": "花谷よゆー"
       },
       {
         "ja": "石垣三夫",
-        "en": "Ishigaki Civic Center Medium Hall",
-        "zh": "石垣市民會館中廳"
+        "en": "Ishigaki Mitsuo",
+        "zh": "石垣三夫"
       }
     ],
     "fee": {
-      "ja": "参加無料",
-      "en": "",
-      "zh": ""
+      "ja": "無料",
+      "en": "Free",
+      "zh": "免費"
     },
     "contact": {
       "ja": "0980-82-3210",
-      "en": "Ishigaki Civic Center Medium Hall",
-      "zh": "石垣市民會館中廳"
+      "en": "0980-82-3210",
+      "zh": "0980-82-3210"
     },
     "link": {
       "ja": "",
@@ -53,12 +53,12 @@
     }
   },
   {
-    "id": "3d5e972e-4b2b-4f2c-b16d-314c31169b87",
+    "id": "a197807c-a7b5-445c-bed0-cc6f039ce0a6",
     "date": "2025-07-21",
     "title": {
-      "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムdxe上方落語",
-      "en": "Marseille",
-      "zh": "Marseille"
+      "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムde上方落語",
+      "en": "Hoshi no Umi Planetarium 6th Anniversary - Kamigata Rakugo at the Planetarium",
+      "zh": "星之海天文館6周年紀念 天文館上方落語"
     },
     "detail": {
       "ja": "",
@@ -70,29 +70,29 @@
       "en": "",
       "zh": ""
     },
-    "open_time": "開演時間: 15:00/19:00",
-    "start_time": "15:00/19:00",
+    "open_time": "開演時間:",
+    "start_time": "入場料:",
     "performers": [
       {
         "ja": "会場:",
-        "en": "Contact: 080-3246-1074",
-        "zh": "聯絡方式: 080-3246-1074"
+        "en": "Venue:",
+        "zh": "會場:"
       },
       {
         "ja": "石垣島星ノ海プラネタリウム",
-        "en": "Screening of \"Dragon Heart - Spirit World Exploration\"",
-        "zh": "電影「龍之心－靈界探訪記」上映"
+        "en": "Ishigaki Island Hoshi no Umi Planetarium",
+        "zh": "石垣島星之海天文館"
       }
     ],
     "fee": {
-      "ja": "2,500円",
-      "en": "",
-      "zh": ""
+      "ja": "連絡先: 0980-87-9945",
+      "en": "Contact: 0980-87-9945",
+      "zh": "聯絡方式: 0980-87-9945"
     },
     "contact": {
       "ja": "0980-87-9945",
-      "en": "Ishigaki Civic Center Medium Hall",
-      "zh": "石垣市民會館中廳"
+      "en": "0980-87-9945",
+      "zh": "0980-87-9945"
     },
     "link": {
       "ja": "",
@@ -101,12 +101,12 @@
     }
   },
   {
-    "id": "5126897c-a2a3-43c1-b26f-318f4043df98",
+    "id": "6ac368d6-e92d-491a-a0f9-555cca8a4de0",
     "date": "2025-07-20",
     "title": {
       "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
-      "en": "Advance ticket 1,500 yen",
-      "zh": "預售 1,500日圓"
+      "en": "Screening of the movie \"Dragon Heart - Chronicle of the Spirit World\"",
+      "zh": "電影「龍之心─靈界探訪記」上映"
     },
     "detail": {
       "ja": "",
@@ -128,19 +128,19 @@
       },
       {
         "ja": "石垣市民会館中ホール",
-        "en": "0980-82-3380",
-        "zh": "0980-82-3380"
+        "en": "Ishigaki Civic Center Medium Hall",
+        "zh": "石垣市民會館中廳"
       }
     ],
     "fee": {
       "ja": "連絡先: 080-3246-1074",
-      "en": "",
-      "zh": ""
+      "en": "Contact: 080-3246-1074",
+      "zh": "聯絡方式: 080-3246-1074"
     },
     "contact": {
       "ja": "080-3246-1074",
-      "en": "ZEN-LA-ROCK",
-      "zh": "ZEN-LA-ROCK"
+      "en": "080-3246-1074",
+      "zh": "080-3246-1074"
     },
     "link": {
       "ja": "",
@@ -149,12 +149,12 @@
     }
   },
   {
-    "id": "863e1d1f-f1fd-4ea9-bcae-c0f3677a6497",
+    "id": "6ed050cd-29a2-4c26-9ef8-22979e67ef7d",
     "date": "2025-07-19",
     "title": {
       "ja": "工藤正ニメモリアルライブ ウッドベース復活記念",
-      "en": "",
-      "zh": ""
+      "en": "Kudo Masani Memorial Live - Wood Bass Revival Commemoration",
+      "zh": "工藤正二紀念演唱會 木貝斯復活紀念"
     },
     "detail": {
       "ja": "",
@@ -163,32 +163,32 @@
     },
     "venue": {
       "ja": "CITY JACK",
-      "en": "0980-88-6689",
-      "zh": "0980-88-6689"
+      "en": "CITY JACK",
+      "zh": "CITY JACK"
     },
     "open_time": "19:00",
     "start_time": "20:00",
     "performers": [
       {
         "ja": "chaganjuu7",
-        "en": "CITY",
-        "zh": "CITY"
+        "en": "chaganjuu7",
+        "zh": "chaganjuu7"
       },
       {
         "ja": "ミネオモチ",
-        "en": "JACK",
-        "zh": "JACK"
+        "en": "Mineomochi",
+        "zh": "ミネオモチ"
       }
     ],
     "fee": {
       "ja": "1,000円（別途ドリンク）",
-      "en": "Venue:",
-      "zh": "會場:"
+      "en": "1,000 yen (drinks sold separately)",
+      "zh": "1,000日圓（飲料另計）"
     },
     "contact": {
       "ja": "0980-88-6689",
-      "en": "Showa Kayou Night 9",
-      "zh": "昭和歌謠之夜9"
+      "en": "0980-88-6689",
+      "zh": "0980-88-6689"
     },
     "link": {
       "ja": "",
@@ -197,12 +197,12 @@
     }
   },
   {
-    "id": "b5cda92c-8ff7-46e6-98d7-069066a95485",
+    "id": "8914cf52-1cb3-496c-ac94-1e332242de21",
     "date": "2025-07-19",
     "title": {
       "ja": "cucule Re-Opening DJ Night",
-      "en": "",
-      "zh": ""
+      "en": "cucule Re-Opening DJ Night",
+      "zh": "cucule重新開幕DJ之夜"
     },
     "detail": {
       "ja": "",
@@ -210,38 +210,38 @@
       "zh": ""
     },
     "venue": {
-      "ja": "蔵元 SAKE & GALLERY （石垣島ホテルククル1F）",
-      "en": "Kudo Shoji Memorial Live Wood Bass Revival Commemoration",
-      "zh": "工藤正二紀念演唱會 木貝斯復活紀念"
+      "ja": "蔵元 SAKE & GALLERY（石垣島ホテルククル1F）",
+      "en": "Kuramoto SAKE & GALLERY (Ishigaki Island Hotel Cucule 1F)",
+      "zh": "蔵元 SAKE & GALLERY（石垣島酒店ククル1樓）"
     },
     "open_time": "17:00",
-    "start_time": "入場料: 前売 1,500円",
+    "start_time": "入場料: 前売1,500円",
     "performers": [
       {
         "ja": "ZEN-LA-ROCK",
-        "en": "1,000 yen (drinks not included)",
-        "zh": "1,000日圓（飲料另計）"
+        "en": "ZEN-LA-ROCK",
+        "zh": "ZEN-LA-ROCK"
       },
       {
         "ja": "Kenya",
-        "en": "0980-88-6689",
-        "zh": "0980-88-6689"
+        "en": "Kenya",
+        "zh": "Kenya"
       },
       {
         "ja": "Marseille",
-        "en": "",
-        "zh": ""
+        "en": "Marseille",
+        "zh": "Marseille"
       }
     ],
     "fee": {
-      "ja": "前売 1,500円",
-      "en": "CITY JACK",
-      "zh": "CITY JACK"
+      "ja": "前売1,500円",
+      "en": "Advance ticket 1,500 yen",
+      "zh": "預售1,500日圓"
     },
     "contact": {
       "ja": "0980-82-3380",
-      "en": "",
-      "zh": ""
+      "en": "0980-82-3380",
+      "zh": "0980-82-3380"
     },
     "link": {
       "ja": "",
@@ -250,7 +250,7 @@
     }
   },
   {
-    "id": "b7587bf4-fda3-41b6-bd2e-d30bdf438139",
+    "id": "c427f4b4-fb90-45fc-9a7b-6f0318d534f6",
     "date": "2025-07-19",
     "title": {
       "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
@@ -298,12 +298,12 @@
     }
   },
   {
-    "id": "6fa60a24-ef46-4155-817d-9a38e04a5571",
+    "id": "542023c3-a10c-47f3-8059-bf3c61ce0747",
     "date": "2025-07-18",
     "title": {
       "ja": "昭和歌謡ナイト9",
-      "en": "DJJIRO",
-      "zh": "DJJIRO"
+      "en": "Showa Kayo Night 9",
+      "zh": "昭和歌謠之夜9"
     },
     "detail": {
       "ja": "",
@@ -325,19 +325,19 @@
       },
       {
         "ja": "CITY",
-        "en": "CITY JACK",
-        "zh": "CITY JACK"
+        "en": "CITY",
+        "zh": "CITY"
       },
       {
         "ja": "JACK",
-        "en": "3,000 yen (drinks not included)",
-        "zh": "3,000日圓（飲料另計）"
+        "en": "JACK",
+        "zh": "JACK"
       }
     ],
     "fee": {
       "ja": "3,000円（別途ドリンク）",
-      "en": "HAMACHANG",
-      "zh": "HAMACHANG"
+      "en": "3,000 yen (drinks sold separately)",
+      "zh": "3,000日圓（飲料另計）"
     },
     "contact": {
       "ja": "0980-88-6689",
@@ -351,7 +351,7 @@
     }
   },
   {
-    "id": "2978e50a-c434-442f-ac84-0f8607959927",
+    "id": "6a5f5624-45b2-4d51-b078-a628928b02a6",
     "date": "2025-07-13",
     "title": {
       "ja": "昭和DISCOナイト",
@@ -373,19 +373,19 @@
     "performers": [
       {
         "ja": "DJJIRO",
-        "en": "",
-        "zh": ""
+        "en": "DJJIRO",
+        "zh": "DJJIRO"
       },
       {
         "ja": "HAMACHANG",
-        "en": "0980-88-6689",
-        "zh": "0980-88-6689"
+        "en": "HAMACHANG",
+        "zh": "HAMACHANG"
       }
     ],
     "fee": {
       "ja": "2,000円（別途ドリンク）",
-      "en": "CITY JACK",
-      "zh": "CITY JACK"
+      "en": "2,000 yen (drinks sold separately)",
+      "zh": "2,000日圓（飲料另計）"
     },
     "contact": {
       "ja": "0980-88-6689",
