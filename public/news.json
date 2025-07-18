@@ -1,11 +1,11 @@
 [
   {
-    "id": "6a612bc7-46b2-4124-8311-bd51121ef05e",
+    "id": "6cc67800-c6c6-42f4-9abe-d9c9efffccb7",
     "date": "2025-07-27",
     "title": {
       "ja": "衣・食・住健康づくりセミナー",
-      "en": "Contact: 080-3246-1074",
-      "zh": "聯絡方式: 080-3246-1074"
+      "en": "T",
+      "zh": "T"
     },
     "detail": {
       "ja": "",
@@ -13,16 +13,16 @@
       "zh": ""
     },
     "venue": {
-      "ja": "石垣市健康福祉センター2階視聴覚室",
-      "en": "080-3246-1074",
-      "zh": "080-3246-1074"
+      "ja": "石垣市健康福祉センター 2階視聴覚室",
+      "en": "WORKS",
+      "zh": "WORKS"
     },
-    "open_time": "13:30",
-    "start_time": "入場料: 無料",
+    "open_time": "開演時間: 13:30",
+    "start_time": "13:30",
     "performers": [
       {
         "ja": "長崎拓",
-        "en": "Ishigaki Civic Center Middle Hall",
+        "en": "Ishigaki Civic Hall Middle Hall",
         "zh": "石垣市民會館中廳"
       },
       {
@@ -32,19 +32,19 @@
       },
       {
         "ja": "石垣三夫",
-        "en": "Movie \"Dragon Heart - Spirit World Exploration\" Screening",
-        "zh": "電影《龍心-靈界探訪記》上映"
+        "en": "Contact: 080-3246-1074",
+        "zh": "聯絡方式：080-3246-1074"
       }
     ],
     "fee": {
-      "ja": "無料",
+      "ja": "参加無料",
       "en": "",
       "zh": ""
     },
     "contact": {
       "ja": "0980-82-3210",
-      "en": "Venue:",
-      "zh": "會場:"
+      "en": "Movie \"Dragon Heart - Spirit World Exploration\" Screening",
+      "zh": "電影「龍心－靈界探訪記」上映"
     },
     "link": {
       "ja": "",
@@ -53,12 +53,12 @@
     }
   },
   {
-    "id": "1e26ffb7-eb26-4fc4-ad45-fd64f9a05057",
+    "id": "99d0c8a2-5a4d-48ac-bc01-88b53944f05d",
     "date": "2025-07-21",
     "title": {
       "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムde上方落語",
-      "en": "T",
-      "zh": "T"
+      "en": "ZEN-LA-ROCK",
+      "zh": "ZEN-LA-ROCK"
     },
     "detail": {
       "ja": "",
@@ -75,13 +75,13 @@
     "performers": [
       {
         "ja": "会場:",
-        "en": "Ishigaki Civic Center Middle Hall",
-        "zh": "石垣市民會館中廳"
+        "en": "T",
+        "zh": "T"
       },
       {
         "ja": "石垣島星ノ海プラネタリウム",
-        "en": "WORKS",
-        "zh": "WORKS"
+        "en": "Kenya",
+        "zh": "Kenya"
       }
     ],
     "fee": {
@@ -91,54 +91,6 @@
     },
     "contact": {
       "ja": "0980-87-9945",
-      "en": "Movie \"Dragon Heart - Spirit World Exploration\" Screening",
-      "zh": "電影《龍心-靈界探訪記》上映"
-    },
-    "link": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    }
-  },
-  {
-    "id": "1b483526-b0e2-4ef1-a86c-531ad1fa1bdc",
-    "date": "2025-07-20",
-    "title": {
-      "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
-      "en": "ZEN-LA-ROCK",
-      "zh": "ZEN-LA-ROCK"
-    },
-    "detail": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "venue": {
-      "ja": "石垣市民会館中ホール",
-      "en": "",
-      "zh": ""
-    },
-    "open_time": "開演時間: 10:00/14:00/19:00",
-    "start_time": "10:00/14:00/19:00",
-    "performers": [
-      {
-        "ja": "会場:",
-        "en": "",
-        "zh": ""
-      },
-      {
-        "ja": "石垣市民会館中ホール",
-        "en": "Kenya",
-        "zh": "Kenya"
-      }
-    ],
-    "fee": {
-      "ja": "連絡先: 080-3246-1074",
-      "en": "",
-      "zh": ""
-    },
-    "contact": {
-      "ja": "080-3246-1074",
       "en": "Marseille",
       "zh": "Marseille"
     },
@@ -149,7 +101,7 @@
     }
   },
   {
-    "id": "ba256329-63c1-4844-8f78-7063c90b843b",
+    "id": "2071deb5-ff6e-4481-8508-59f6972e6fc1",
     "date": "2025-07-19",
     "title": {
       "ja": "工藤正ニメモリアルライブ ウッドベース復活記念",
@@ -183,7 +135,7 @@
     "fee": {
       "ja": "1,000円（別途ドリンク）",
       "en": "Venue:",
-      "zh": "會場:"
+      "zh": "會場："
     },
     "contact": {
       "ja": "0980-88-6689",
@@ -197,7 +149,7 @@
     }
   },
   {
-    "id": "2c28a733-f548-4c5e-a118-5b2d6253176e",
+    "id": "e1c94adc-d7aa-4351-bcb2-cb613df51ad8",
     "date": "2025-07-19",
     "title": {
       "ja": "cucule Re-Opening DJ Night",
@@ -211,11 +163,11 @@
     },
     "venue": {
       "ja": "蔵元 SAKE & GALLERY（石垣島ホテルククル1F）",
-      "en": "Kudo Masani Memorial Live - Wood Bass Revival Commemoration",
+      "en": "Kudo Masani Memorial Live Wood Bass Revival Commemoration",
       "zh": "工藤正二紀念演唱會 木貝斯復活紀念"
     },
     "open_time": "17:00",
-    "start_time": "入場料: 前売1,500円",
+    "start_time": "入場料: 前売 1,500円",
     "performers": [
       {
         "ja": "ZEN-LA-ROCK",
@@ -240,7 +192,7 @@
       {
         "ja": "T",
         "en": "Mineomochi",
-        "zh": "峰雄餅"
+        "zh": "米尼奧莫奇"
       },
       {
         "ja": "WORKS",
@@ -249,7 +201,7 @@
       }
     ],
     "fee": {
-      "ja": "前売1,500円",
+      "ja": "前売 1,500円",
       "en": "CITY JACK",
       "zh": "CITY JACK"
     },
@@ -265,12 +217,12 @@
     }
   },
   {
-    "id": "24d1974f-3e1b-4625-a057-e8b5e3c83cf0",
+    "id": "b95912b6-cc12-42a2-8c77-5a40ded663cc",
     "date": "2025-07-19",
     "title": {
       "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
-      "en": "",
-      "zh": ""
+      "en": "cucule Re-Opening DJ Night",
+      "zh": "cucule重新開幕DJ之夜"
     },
     "detail": {
       "ja": "",
@@ -292,8 +244,8 @@
       },
       {
         "ja": "石垣市民会館中ホール",
-        "en": "",
-        "zh": ""
+        "en": "Kuramoto SAKE & GALLERY (Ishigakijima Hotel Cucule 1F)",
+        "zh": "藏元SAKE & GALLERY（石垣島酒店Cucule1樓）"
       }
     ],
     "fee": {
@@ -303,8 +255,8 @@
     },
     "contact": {
       "ja": "080-3246-1074",
-      "en": "",
-      "zh": ""
+      "en": "Advance ticket 1,500 yen",
+      "zh": "預售 1,500日圓"
     },
     "link": {
       "ja": "",
@@ -313,7 +265,7 @@
     }
   },
   {
-    "id": "ec8a2e51-3381-4a21-b91c-1180545e7cb0",
+    "id": "271a46b9-f502-4570-b684-2ff70bebf792",
     "date": "2025-07-18",
     "title": {
       "ja": "昭和歌謡ナイト9",
@@ -366,12 +318,12 @@
     }
   },
   {
-    "id": "c176bed6-8449-49f5-8fb7-549991499744",
+    "id": "b1f58a0f-e4ac-4dde-b7f4-7f1428e08d1f",
     "date": "2025-07-13",
     "title": {
       "ja": "昭和DISCOナイト",
       "en": "Showa DISCO Night",
-      "zh": "昭和迪斯可之夜"
+      "zh": "昭和DISCO之夜"
     },
     "detail": {
       "ja": "",
@@ -412,89 +364,5 @@
       "en": "",
       "zh": ""
     }
-  },
-  {
-    "id": "news-001",
-    "date": "2024-06-10",
-    "title": {
-      "ja": "新しいホテルがオープンしました",
-      "en": "A new hotel has opened",
-      "zh": "新饭店已开幕"
-    },
-    "detail": {
-      "ja": "石垣島に新しいリゾートホテルがオープン。詳細は公式サイトをご覧ください。",
-      "en": "A new resort hotel has opened on Ishigaki Island. See the official website for details.",
-      "zh": "石垣岛新度假饭店已开幕。详情请参阅官方网站。"
-    },
-    "venue": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "open_time": "",
-    "start_time": "",
-    "performers": [],
-    "fee": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "link": "https://example-hotel.com"
-  },
-  {
-    "id": "news-002",
-    "date": "2024-06-08",
-    "title": {
-      "ja": "人気カフェがリニューアル",
-      "en": "Popular cafe renewed",
-      "zh": "人气咖啡厅重新开幕"
-    },
-    "detail": {
-      "ja": "石垣島の人気カフェがリニューアルオープン。新メニューも登場！",
-      "en": "A popular cafe in Ishigaki Island has reopened. New menu items are also available!",
-      "zh": "石垣岛的人气咖啡厅重新开幕。新菜单也登场！"
-    },
-    "venue": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "open_time": "",
-    "start_time": "",
-    "performers": [],
-    "fee": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "link": "https://example-cafe.com"
-  },
-  {
-    "id": "news-003",
-    "date": "2024-06-05",
-    "title": {
-      "ja": "観光バス新路線スタート",
-      "en": "New sightseeing bus route started",
-      "zh": "观光巴士新路线启动"
-    },
-    "detail": {
-      "ja": "島内観光バスの新路線が運行開始。主要スポットを効率よく巡れます。",
-      "en": "A new sightseeing bus route has started on the island. You can efficiently tour major spots.",
-      "zh": "岛内观光巴士新路线开始运行。可高效巡游主要景点。"
-    },
-    "venue": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "open_time": "",
-    "start_time": "",
-    "performers": [],
-    "fee": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "link": "https://example-bus.com"
   }
 ]
