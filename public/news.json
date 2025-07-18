@@ -1,142 +1,452 @@
 [
   {
-    "id": "event-001",
-    "date": "2025-07-13",
-    "title": { "ja": "昭和DISCOナイトDJイベント", "en": "Showa Disco Night DJ Event", "zh": "昭和DISCO之夜DJ活动" },
-    "detail": { "ja": "", "en": "", "zh": "" },
-    "venue": { "ja": "CITY JACK", "en": "CITY JACK", "zh": "CITY JACK" },
-    "open_time": "19:00",
-    "start_time": "20:00",
-    "performers": [ { "ja": "DJJIRO", "en": "DJJIRO", "zh": "DJJIRO" }, { "ja": "HAMACHANG", "en": "HAMACHANG", "zh": "HAMACHANG" } ],
-    "fee": { "ja": "2,000円（別途ドリンク）", "en": "2,000 yen (plus drink)", "zh": "2,000日元（另加饮料）" },
-    "contact": { "ja": "CITY JACK 0980-88-6689", "en": "CITY JACK 0980-88-6689", "zh": "CITY JACK 0980-88-6689" },
-    "link": ""
-  },
-  {
-    "id": "event-002",
-    "date": "2025-07-18",
-    "title": { "ja": "昭和歌謡ナイト9", "en": "Showa Kayou Night 9", "zh": "昭和歌谣之夜9" },
-    "detail": { "ja": "毎回大盛況の輝かしい昭和の名曲イベント第9弾！", "en": "The 9th edition of the popular Showa era hit song event!", "zh": "昭和时代名曲活动第9弹！" },
-    "venue": { "ja": "CITY JACK", "en": "CITY JACK", "zh": "CITY JACK" },
-    "open_time": "19:00",
-    "start_time": "20:00",
-    "performers": [],
-    "fee": { "ja": "3,000円（別途ドリンク）", "en": "3,000 yen (plus drink)", "zh": "3,000日元（另加饮料）" },
-    "contact": { "ja": "CITY JACK 0980-88-6689", "en": "CITY JACK 0980-88-6689", "zh": "CITY JACK 0980-88-6689" },
-    "link": ""
-  },
-  {
-    "id": "event-003",
-    "date": "2025-07-19",
-    "title": { "ja": "工藤正ニメモリアルライブ ウッドベース復活記念", "en": "Masani Kudo Memorial Live - Wood Bass Revival", "zh": "工藤正尼纪念演出 低音提琴复活纪念" },
-    "detail": { "ja": "", "en": "", "zh": "" },
-    "venue": { "ja": "CITY JACK", "en": "CITY JACK", "zh": "CITY JACK" },
-    "open_time": "19:00",
-    "start_time": "20:00",
-    "performers": [ { "ja": "chaganjuu7", "en": "chaganjuu7", "zh": "chaganjuu7" }, { "ja": "ミネオモチ", "en": "Mineomochi", "zh": "Mineomochi" } ],
-    "fee": { "ja": "1,000円（別途ドリンク）", "en": "1,000 yen (plus drink)", "zh": "1,000日元（另加饮料）" },
-    "contact": { "ja": "CITY JACK 0980-88-6689", "en": "CITY JACK 0980-88-6689", "zh": "CITY JACK 0980-88-6689" },
-    "link": ""
-  },
-  {
-    "id": "event-004",
-    "date": "2025-07-19",
-    "title": { "ja": "cucule Re-Opening DJ Night", "en": "cucule Re-Opening DJ Night", "zh": "cucule重新开业DJ之夜" },
-    "detail": { "ja": "石垣島ホテルククルが一部内装をリニューアルし、一弾イベントを開催。地元DJやスペシャルゲストZEN-LA-ROCK出演。", "en": "Ishigaki Hotel Cucule is partially renovated and holding a special event. Local DJs and special guest ZEN-LA-ROCK will perform.", "zh": "石垣岛酒店Cucule部分翻新，举办特别活动。当地DJ和特别嘉宾ZEN-LA-ROCK出演。" },
-    "venue": { "ja": "蔵元 SAKE & GALLERY（石垣島ホテルククル1F）", "en": "Kuramoto SAKE & GALLERY (Ishigaki Hotel Cucule 1F)", "zh": "藏元 SAKE & GALLERY（石垣岛酒店Cucule 1F）" },
-    "open_time": "17:00",
-    "start_time": "",
-    "performers": [ { "ja": "ZEN-LA-ROCK", "en": "ZEN-LA-ROCK", "zh": "ZEN-LA-ROCK" }, { "ja": "Kenya Marseille", "en": "Kenya Marseille", "zh": "Kenya Marseille" }, { "ja": "T&T WORKS", "en": "T&T WORKS", "zh": "T&T WORKS" } ],
-    "fee": { "ja": "前売1,500円", "en": "Advance 1,500 yen", "zh": "预售1,500日元" },
-    "contact": { "ja": "石垣島ホテルククル 0980-82-3380（担当：富村）", "en": "Ishigaki Hotel Cucule 0980-82-3380 (Contact: Tomimura)", "zh": "石垣岛酒店Cucule 0980-82-3380（负责人：富村）" },
-    "link": ""
-  },
-  {
-    "id": "event-005",
-    "date": "2025-07-19-20",
-    "title": { "ja": "映画「ドラゴン・ハートー霊界探訪記」上映", "en": "Movie Screening: Dragon Heart - Spirit World Exploration", "zh": "电影《龙之心-灵界探访记》放映" },
-    "detail": { "ja": "大好評につき追加開催決定！インド映画祭受賞歴多数。特別鑑賞券で何名でも入場可。", "en": "Additional screenings due to popular demand! Multiple awards at Indian film festivals. Unlimited entry with special ticket.", "zh": "因大受欢迎决定追加举办！多次获得印度电影节奖项。持特別观赏券可多人入场。" },
-    "venue": { "ja": "石垣市民会館中ホール", "en": "Ishigaki Civic Hall (Middle Hall)", "zh": "石垣市民会馆中厅" },
-    "open_time": "10:00, 14:00, 19:00",
-    "start_time": "",
-    "performers": [],
-    "fee": { "ja": "", "en": "", "zh": "" },
-    "contact": { "ja": "幸福の科学八重山支部 080-3246-1074", "en": "Happy Science Yaeyama Branch 080-3246-1074", "zh": "幸福科学八重山分部 080-3246-1074" },
-    "link": ""
-  },
-  {
-    "id": "event-006",
-    "date": "2025-07-21",
-    "title": { "ja": "星ノ海プラネタリウム6周年記念", "en": "Hoshinoumi Planetarium 6th Anniversary", "zh": "星之海天文馆6周年纪念" },
-    "detail": { "ja": "プラネタリウムdxe上方落語", "en": "Planetarium dxe Kamigata Rakugo", "zh": "天文馆dxe上方落语" },
-    "venue": { "ja": "星ノ海プラネタリウム", "en": "Hoshinoumi Planetarium", "zh": "星之海天文馆" },
-    "open_time": "",
-    "start_time": "",
-    "performers": [],
-    "fee": { "ja": "", "en": "", "zh": "" },
-    "contact": { "ja": "星ノ海プラネタリウム 0980-87-9945", "en": "Hoshinoumi Planetarium 0980-87-9945", "zh": "星之海天文馆 0980-87-9945" },
-    "link": ""
-  },
-  {
-    "id": "event-007",
-    "date": "2025-07-01-27",
-    "title": { "ja": "Namiki展「南の島の動園 vol.3」", "en": "Namiki Exhibition: Southern Island Zoo vol.3", "zh": "Namiki展览“南岛动物园vol.3”" },
-    "detail": { "ja": "カラフルな動物の作品を展示。最終日は正午まで。ギャラリー来場は1ドリンクオーダー要。Namiki氏時々滞在・壁画作成予定。", "en": "Exhibition of colorful animal works. Last day until noon. 1 drink order required for gallery visit. Namiki occasionally present for mural creation.", "zh": "展出色彩斑斓的动物作品。最后一天至中午。参观画廊需点一杯饮品。Namiki偶尔在场进行壁画创作。" },
-    "venue": { "ja": "ユーグレナ石垣港離島ターミナル/蔵元 SAKE & GALLERY", "en": "Euglena Ishigaki Port Remote Island Terminal / Kuramoto SAKE & GALLERY", "zh": "尤格列纳石垣港离岛航站楼/藏元SAKE & GALLERY" },
-    "open_time": "10:00～（最終日は正午まで）",
-    "start_time": "",
-    "performers": [ { "ja": "Namiki", "en": "Namiki", "zh": "Namiki" } ],
-    "fee": { "ja": "2,500円（ギャラリーは入場無料）", "en": "2,500 yen (gallery free entry)", "zh": "2,500日元（画廊免费入场）" },
-    "contact": { "ja": "石垣島ホテルククル 0980-82-3380", "en": "Ishigaki Hotel Cucule 0980-82-3380", "zh": "石垣岛酒店Cucule 0980-82-3380" },
-    "link": ""
-  },
-  {
-    "id": "event-008",
+    "id": "c739db5f-1686-473c-9fa0-4ef106452113",
     "date": "2025-07-27",
-    "title": { "ja": "区・食・住健康づくりセミナー", "en": "Community, Food, and Living Health Seminar", "zh": "区·食·住健康讲座" },
-    "detail": { "ja": "「衣から医への不自然さ」「土壌から考える、人と島の健康」「深呼吸したくなる家」などの講演。定員50名（要予約）、参加無料。", "en": "Lectures on topics such as 'The Unnaturalness from Clothing to Medicine', 'Health of People and Islands from the Soil', and 'A House That Makes You Want to Take a Deep Breath'. Capacity 50 (reservation required), free participation.", "zh": "讲座内容包括“从衣到医的不自然性”、“从土壤思考人与岛的健康”、“让人想深呼吸的家”等。限50人（需预约），免费参加。" },
-    "venue": { "ja": "石垣市健康福祉センター2階視聴覚室", "en": "Ishigaki City Health and Welfare Center 2F AV Room", "zh": "石垣市健康福祉中心2楼视听教室" },
-    "open_time": "13:30～16:30",
-    "start_time": "",
-    "performers": [ { "ja": "長崎拓（医師）", "en": "Taku Nagasaki (Doctor)", "zh": "长崎拓（医生）" }, { "ja": "花谷よゆー（農家）", "en": "Yoyu Hanatani (Farmer)", "zh": "花谷よゆ（农家）" }, { "ja": "石垣三夫", "en": "Mitsuo Ishigaki", "zh": "石垣三夫" } ],
-    "fee": { "ja": "参加無料", "en": "Free participation", "zh": "免费参加" },
-    "contact": { "ja": "有限会社石垣設計室 0980-82-3210", "en": "Ishigaki Sekkei Co., Ltd. 0980-82-3210", "zh": "石垣设计有限公司 0980-82-3210" },
-    "link": ""
+    "title": {
+      "ja": "衣・食・住健康づくりセミナー",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣市健康福祉センター 2階視聴覚室",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "開演時間: 13:30",
+    "start_time": "13:30",
+    "performers": [
+      {
+        "ja": "長崎拓",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "花谷よゆー",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "石垣三夫",
+        "en": "",
+        "zh": ""
+      }
+    ],
+    "fee": {
+      "ja": "参加無料",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "0980-82-3210",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "ce03a088-d538-4963-831f-88d406750fc0",
+    "date": "2025-07-21",
+    "title": {
+      "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムde上方落語",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣島星ノ海プラネタリウム",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "開演時間: 15:00/19:00",
+    "start_time": "15:00/19:00",
+    "performers": [
+      {
+        "ja": "会場:",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "石垣島星ノ海プラネタリウム",
+        "en": "",
+        "zh": ""
+      }
+    ],
+    "fee": {
+      "ja": "2,500円",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "0980-87-9945",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "b29c2bde-89dc-4042-8315-c5471fbdecb3",
+    "date": "2025-07-19",
+    "title": {
+      "ja": "工藤正ニメモリアルライブ ウッドベース復活記念",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "CITY JACK",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "19:00",
+    "start_time": "20:00",
+    "performers": [
+      {
+        "ja": "chaganjuu7",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "ミネオモチ",
+        "en": "",
+        "zh": ""
+      }
+    ],
+    "fee": {
+      "ja": "1,000円（別途ドリンク）",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "0980-88-6689",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "bf71d216-da86-4377-8dd5-a4db0142a024",
+    "date": "2025-07-19",
+    "title": {
+      "ja": "cucule Re-Opening DJ Night",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "蔵元 SAKE & GALLERY（石垣島ホテルククル1F）",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "17:00",
+    "start_time": "入場料: 前売 1,500円",
+    "performers": [
+      {
+        "ja": "ZEN-LA-ROCK",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "Kenya",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "Marseille",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "T",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "T",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "WORKS",
+        "en": "",
+        "zh": ""
+      }
+    ],
+    "fee": {
+      "ja": "前売 1,500円",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "0980-82-3380",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "f6c4c576-8131-43eb-878f-4f5a11ed8e40",
+    "date": "2025-07-19",
+    "title": {
+      "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣市民会館中ホール",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "開演時間: 10:00/14:00/19:00",
+    "start_time": "10:00/14:00/19:00",
+    "performers": [
+      {
+        "ja": "会場:",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "石垣市民会館中ホール",
+        "en": "",
+        "zh": ""
+      }
+    ],
+    "fee": {
+      "ja": "連絡先: 080-3246-1074",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "080-3246-1074",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "5d46259d-e2ce-4c8b-9d2c-f83d052fc7e1",
+    "date": "2025-07-18",
+    "title": {
+      "ja": "昭和歌謡ナイト9",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "CITY JACK",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "19:00",
+    "start_time": "20:00",
+    "performers": [
+      {
+        "ja": "会場:",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "CITY",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "JACK",
+        "en": "",
+        "zh": ""
+      }
+    ],
+    "fee": {
+      "ja": "3,000円（別途ドリンク）",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "0980-88-6689",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "f7800318-9926-45ee-b209-a84d418d2d8d",
+    "date": "2025-07-13",
+    "title": {
+      "ja": "昭和DISCOナイト",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "CITY JACK",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "19:00",
+    "start_time": "20:00",
+    "performers": [
+      {
+        "ja": "DJJIRO",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "HAMACHANG",
+        "en": "",
+        "zh": ""
+      }
+    ],
+    "fee": {
+      "ja": "2,000円（別途ドリンク）",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "0980-88-6689",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
   },
   {
     "id": "news-001",
     "date": "2024-06-10",
-    "title": { "ja": "新しいホテルがオープンしました", "en": "A new hotel has opened", "zh": "新饭店已开幕" },
-    "detail": { "ja": "石垣島に新しいリゾートホテルがオープン。詳細は公式サイトをご覧ください。", "en": "A new resort hotel has opened on Ishigaki Island. See the official website for details.", "zh": "石垣岛新度假饭店已开幕。详情请参阅官方网站。" },
-    "venue": { "ja": "", "en": "", "zh": "" },
+    "title": {
+      "ja": "新しいホテルがオープンしました",
+      "en": "A new hotel has opened",
+      "zh": "新饭店已开幕"
+    },
+    "detail": {
+      "ja": "石垣島に新しいリゾートホテルがオープン。詳細は公式サイトをご覧ください。",
+      "en": "A new resort hotel has opened on Ishigaki Island. See the official website for details.",
+      "zh": "石垣岛新度假饭店已开幕。详情请参阅官方网站。"
+    },
+    "venue": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
     "open_time": "",
     "start_time": "",
     "performers": [],
-    "fee": { "ja": "", "en": "", "zh": "" },
+    "fee": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
     "link": "https://example-hotel.com"
   },
   {
     "id": "news-002",
     "date": "2024-06-08",
-    "title": { "ja": "人気カフェがリニューアル", "en": "Popular cafe renewed", "zh": "人气咖啡厅重新开幕" },
-    "detail": { "ja": "石垣島の人気カフェがリニューアルオープン。新メニューも登場！", "en": "A popular cafe in Ishigaki Island has reopened. New menu items are also available!", "zh": "石垣岛的人气咖啡厅重新开幕。新菜单也登场！" },
-    "venue": { "ja": "", "en": "", "zh": "" },
+    "title": {
+      "ja": "人気カフェがリニューアル",
+      "en": "Popular cafe renewed",
+      "zh": "人气咖啡厅重新开幕"
+    },
+    "detail": {
+      "ja": "石垣島の人気カフェがリニューアルオープン。新メニューも登場！",
+      "en": "A popular cafe in Ishigaki Island has reopened. New menu items are also available!",
+      "zh": "石垣岛的人气咖啡厅重新开幕。新菜单也登场！"
+    },
+    "venue": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
     "open_time": "",
     "start_time": "",
     "performers": [],
-    "fee": { "ja": "", "en": "", "zh": "" },
+    "fee": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
     "link": "https://example-cafe.com"
   },
   {
     "id": "news-003",
     "date": "2024-06-05",
-    "title": { "ja": "観光バス新路線スタート", "en": "New sightseeing bus route started", "zh": "观光巴士新路线启动" },
-    "detail": { "ja": "島内観光バスの新路線が運行開始。主要スポットを効率よく巡れます。", "en": "A new sightseeing bus route has started on the island. You can efficiently tour major spots.", "zh": "岛内观光巴士新路线开始运行。可高效巡游主要景点。" },
-    "venue": { "ja": "", "en": "", "zh": "" },
+    "title": {
+      "ja": "観光バス新路線スタート",
+      "en": "New sightseeing bus route started",
+      "zh": "观光巴士新路线启动"
+    },
+    "detail": {
+      "ja": "島内観光バスの新路線が運行開始。主要スポットを効率よく巡れます。",
+      "en": "A new sightseeing bus route has started on the island. You can efficiently tour major spots.",
+      "zh": "岛内观光巴士新路线开始运行。可高效巡游主要景点。"
+    },
+    "venue": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
     "open_time": "",
     "start_time": "",
     "performers": [],
-    "fee": { "ja": "", "en": "", "zh": "" },
+    "fee": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
     "link": "https://example-bus.com"
   }
-] 
+]
