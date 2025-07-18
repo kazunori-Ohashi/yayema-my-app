@@ -1,0 +1,11 @@
+{
+  "name": "workflow-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^1.0.53",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "uuid": "^9.0.1"
+  }
+} 

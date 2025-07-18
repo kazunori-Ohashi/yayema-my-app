@@ -29,29 +29,23 @@ jobs:
         with:
           node-version: '20.x'
 
-      - name: Claude CLIセットアップ
+      - name: Claude Code SDKセットアップ
         if: steps.check_trigger.outputs.run_next == 'true'
         run: |
-          npm install -g @anthropic-ai/claude-sdk-cli
+          npm install -g @anthropic-ai/claude-code
 
-      - name: 依存パッケージインストール
-        if: steps.check_trigger.outputs.run_next == 'true'
-        run: |
-          cd my-app
-          npm ci
-
-      - name: イシュー内容をnews.jsonに反映
+      - name: パッケージインストールとスクリプト実行
         if: steps.check_trigger.outputs.run_next == 'true'
         env:
-          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
-          cd my-app
-          node scripts/parse-issue-to-news.js "$GITHUB_EVENT_PATH"
+          cd scripts
+          npm install --legacy-peer-deps
+          node parse-issue-to-news.js "$GITHUB_EVENT_PATH"
 
       - name: news.jsonの変更をコミット・プッシュ
         if: steps.check_trigger.outputs.run_next == 'true'
         run: |
-          cd my-app
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/news.json

@@ -47,7 +47,7 @@ export default function NewsSection() {
           {news.map((item) => (
             <li key={item.id} className="py-2 border-b last:border-b-0">
               <div className="flex items-center gap-4">
-                <span className="text-xs text-gray-500 w-24">{item.date}</span>
+              <span className="text-xs text-gray-500 w-24">{item.date}</span>
                 <span className="text-base text-black font-semibold">{item.title?.[lang] || item.title?.ja || ""}</span>
               </div>
               {item.detail?.[lang] && (
