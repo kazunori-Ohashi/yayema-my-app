@@ -1,11 +1,11 @@
 [
   {
-    "id": "6cc67800-c6c6-42f4-9abe-d9c9efffccb7",
+    "id": "fcb679ac-6462-4396-ba48-b33045376ad8",
     "date": "2025-07-27",
     "title": {
       "ja": "衣・食・住健康づくりセミナー",
-      "en": "T",
-      "zh": "T"
+      "en": "080-3246-1074",
+      "zh": "080-3246-1074"
     },
     "detail": {
       "ja": "",
@@ -14,16 +14,16 @@
     },
     "venue": {
       "ja": "石垣市健康福祉センター 2階視聴覚室",
-      "en": "WORKS",
-      "zh": "WORKS"
+      "en": "Venue:",
+      "zh": "會場:"
     },
     "open_time": "開演時間: 13:30",
     "start_time": "13:30",
     "performers": [
       {
         "ja": "長崎拓",
-        "en": "Ishigaki Civic Hall Middle Hall",
-        "zh": "石垣市民會館中廳"
+        "en": "Screening of \"Dragon Heart - Spirit World Exploration\"",
+        "zh": "電影「龍之心－靈界探訪記」上映"
       },
       {
         "ja": "花谷よゆー",
@@ -32,8 +32,8 @@
       },
       {
         "ja": "石垣三夫",
-        "en": "Contact: 080-3246-1074",
-        "zh": "聯絡方式：080-3246-1074"
+        "en": "Ishigaki Civic Center Medium Hall",
+        "zh": "石垣市民會館中廳"
       }
     ],
     "fee": {
@@ -43,8 +43,8 @@
     },
     "contact": {
       "ja": "0980-82-3210",
-      "en": "Movie \"Dragon Heart - Spirit World Exploration\" Screening",
-      "zh": "電影「龍心－靈界探訪記」上映"
+      "en": "Ishigaki Civic Center Medium Hall",
+      "zh": "石垣市民會館中廳"
     },
     "link": {
       "ja": "",
@@ -53,12 +53,12 @@
     }
   },
   {
-    "id": "99d0c8a2-5a4d-48ac-bc01-88b53944f05d",
+    "id": "3d5e972e-4b2b-4f2c-b16d-314c31169b87",
     "date": "2025-07-21",
     "title": {
-      "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムde上方落語",
-      "en": "ZEN-LA-ROCK",
-      "zh": "ZEN-LA-ROCK"
+      "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムdxe上方落語",
+      "en": "Marseille",
+      "zh": "Marseille"
     },
     "detail": {
       "ja": "",
@@ -75,13 +75,13 @@
     "performers": [
       {
         "ja": "会場:",
-        "en": "T",
-        "zh": "T"
+        "en": "Contact: 080-3246-1074",
+        "zh": "聯絡方式: 080-3246-1074"
       },
       {
         "ja": "石垣島星ノ海プラネタリウム",
-        "en": "Kenya",
-        "zh": "Kenya"
+        "en": "Screening of \"Dragon Heart - Spirit World Exploration\"",
+        "zh": "電影「龍之心－靈界探訪記」上映"
       }
     ],
     "fee": {
@@ -91,8 +91,8 @@
     },
     "contact": {
       "ja": "0980-87-9945",
-      "en": "Marseille",
-      "zh": "Marseille"
+      "en": "Ishigaki Civic Center Medium Hall",
+      "zh": "石垣市民會館中廳"
     },
     "link": {
       "ja": "",
@@ -101,7 +101,55 @@
     }
   },
   {
-    "id": "2071deb5-ff6e-4481-8508-59f6972e6fc1",
+    "id": "5126897c-a2a3-43c1-b26f-318f4043df98",
+    "date": "2025-07-20",
+    "title": {
+      "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
+      "en": "Advance ticket 1,500 yen",
+      "zh": "預售 1,500日圓"
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣市民会館中ホール",
+      "en": "",
+      "zh": ""
+    },
+    "open_time": "開演時間: 10:00/14:00/19:00",
+    "start_time": "10:00/14:00/19:00",
+    "performers": [
+      {
+        "ja": "会場:",
+        "en": "",
+        "zh": ""
+      },
+      {
+        "ja": "石垣市民会館中ホール",
+        "en": "0980-82-3380",
+        "zh": "0980-82-3380"
+      }
+    ],
+    "fee": {
+      "ja": "連絡先: 080-3246-1074",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "080-3246-1074",
+      "en": "ZEN-LA-ROCK",
+      "zh": "ZEN-LA-ROCK"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "863e1d1f-f1fd-4ea9-bcae-c0f3677a6497",
     "date": "2025-07-19",
     "title": {
       "ja": "工藤正ニメモリアルライブ ウッドベース復活記念",
@@ -135,11 +183,11 @@
     "fee": {
       "ja": "1,000円（別途ドリンク）",
       "en": "Venue:",
-      "zh": "會場："
+      "zh": "會場:"
     },
     "contact": {
       "ja": "0980-88-6689",
-      "en": "Showa Kayo Night 9",
+      "en": "Showa Kayou Night 9",
       "zh": "昭和歌謠之夜9"
     },
     "link": {
@@ -149,7 +197,7 @@
     }
   },
   {
-    "id": "e1c94adc-d7aa-4351-bcb2-cb613df51ad8",
+    "id": "b5cda92c-8ff7-46e6-98d7-069066a95485",
     "date": "2025-07-19",
     "title": {
       "ja": "cucule Re-Opening DJ Night",
@@ -162,8 +210,8 @@
       "zh": ""
     },
     "venue": {
-      "ja": "蔵元 SAKE & GALLERY（石垣島ホテルククル1F）",
-      "en": "Kudo Masani Memorial Live Wood Bass Revival Commemoration",
+      "ja": "蔵元 SAKE & GALLERY （石垣島ホテルククル1F）",
+      "en": "Kudo Shoji Memorial Live Wood Bass Revival Commemoration",
       "zh": "工藤正二紀念演唱會 木貝斯復活紀念"
     },
     "open_time": "17:00",
@@ -181,21 +229,6 @@
       },
       {
         "ja": "Marseille",
-        "en": "",
-        "zh": ""
-      },
-      {
-        "ja": "T",
-        "en": "",
-        "zh": ""
-      },
-      {
-        "ja": "T",
-        "en": "Mineomochi",
-        "zh": "米尼奧莫奇"
-      },
-      {
-        "ja": "WORKS",
         "en": "",
         "zh": ""
       }
@@ -217,12 +250,12 @@
     }
   },
   {
-    "id": "b95912b6-cc12-42a2-8c77-5a40ded663cc",
+    "id": "b7587bf4-fda3-41b6-bd2e-d30bdf438139",
     "date": "2025-07-19",
     "title": {
       "ja": "映画「ドラゴン・ハートー霊界探訪記」上映",
-      "en": "cucule Re-Opening DJ Night",
-      "zh": "cucule重新開幕DJ之夜"
+      "en": "",
+      "zh": ""
     },
     "detail": {
       "ja": "",
@@ -244,8 +277,8 @@
       },
       {
         "ja": "石垣市民会館中ホール",
-        "en": "Kuramoto SAKE & GALLERY (Ishigakijima Hotel Cucule 1F)",
-        "zh": "藏元SAKE & GALLERY（石垣島酒店Cucule1樓）"
+        "en": "",
+        "zh": ""
       }
     ],
     "fee": {
@@ -255,8 +288,8 @@
     },
     "contact": {
       "ja": "080-3246-1074",
-      "en": "Advance ticket 1,500 yen",
-      "zh": "預售 1,500日圓"
+      "en": "",
+      "zh": ""
     },
     "link": {
       "ja": "",
@@ -265,7 +298,7 @@
     }
   },
   {
-    "id": "271a46b9-f502-4570-b684-2ff70bebf792",
+    "id": "6fa60a24-ef46-4155-817d-9a38e04a5571",
     "date": "2025-07-18",
     "title": {
       "ja": "昭和歌謡ナイト9",
@@ -318,7 +351,7 @@
     }
   },
   {
-    "id": "b1f58a0f-e4ac-4dde-b7f4-7f1428e08d1f",
+    "id": "2978e50a-c434-442f-ac84-0f8607959927",
     "date": "2025-07-13",
     "title": {
       "ja": "昭和DISCOナイト",
