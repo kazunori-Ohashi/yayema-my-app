@@ -1,5 +1,58 @@
 [
   {
+    "id": "04ab3256-96fd-45bd-adbe-481e8722cb19",
+    "date": "2025-08-01",
+    "title": {
+      "ja": "マジカルラブリー・国司相の ワクワクドキドキツアーうのはい",
+      "en": "Magical Lovely Kuze Ai's Exciting and Heart-Pounding Tour Unohai",
+      "zh": "魔法可愛國司愛的興奮刺激之旅嗯諾嗨"
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣市民会館大ホール",
+      "en": "Ishigaki Civic Hall Main Hall",
+      "zh": "石垣市民會館大廳"
+    },
+    "open_time": "18:30",
+    "start_time": "19:00",
+    "performers": [
+      {
+        "ja": "マジカルラブリー",
+        "en": "Magical Lovely",
+        "zh": "魔法可愛"
+      },
+      {
+        "ja": "国司相",
+        "en": "Provincial Governor",
+        "zh": "國司相"
+      },
+      {
+        "ja": "ゲスト",
+        "en": "Guest",
+        "zh": "客人"
+      }
+    ],
+    "fee": {
+      "ja": "前売り4,000円（全席指定）",
+      "en": "Advance tickets 4,000 yen (all seats reserved)",
+      "zh": "預售4,000日圓（全席對號入座）"
+    },
+    "contact": {
+      "ja": "吉本興業 090-4368-9255",
+      "en": "Yoshimoto Kogyo 090-4368-9255",
+      "zh": "吉本興業 090-4368-9255"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
     "id": "34ca5c71-344e-492c-893c-2cd5b26f914a",
     "date": "2025-07-27",
     "title": {
@@ -45,6 +98,132 @@
       "ja": "0980-82-3210",
       "en": "0980-82-3210",
       "zh": "0980-82-3210"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "c5740cbb-24d5-421d-853b-ec098e9727c8",
+    "date": "2025-07-27",
+    "title": {
+      "ja": "衣・食・住",
+      "en": "Clothing, Food, and Housing",
+      "zh": "衣、食、住"
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣市健康福祉センター2階会議室",
+      "en": "Conference Room on the 2nd Floor of Ishigaki City Health and Welfare Center",
+      "zh": "石垣市健康福祉中心2樓會議室"
+    },
+    "open_time": "",
+    "start_time": "13:30",
+    "performers": [
+      {
+        "ja": "長崎拓（医師）",
+        "en": "Hiroshi Nagasaki (Physician)",
+        "zh": "長崎拓（醫師）"
+      },
+      {
+        "ja": "花谷まり（農業）",
+        "en": "Mari Hanatani (Agriculture)",
+        "zh": "花谷真理（農業）"
+      },
+      {
+        "ja": "石城三夫（有限会社石垣設計室）",
+        "en": "Mitsuo Ishijo (Ishigaki Design Office Co., Ltd.)",
+        "zh": "石城三夫（有限公司石垣設計室）"
+      }
+    ],
+    "fee": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "a6dd7e4d-cc6e-47b8-aaff-381ec0b9e358",
+    "date": "2025-07-26",
+    "title": {
+      "ja": "いしがき起業ガレッジ～プレイベント～",
+      "en": "Ishigaki Startup Garage ~ Pre-event ~",
+      "zh": "石垣創業車庫～預備活動～"
+    },
+    "detail": {
+      "ja": "島の課題を価値に変えるには？石垣島で挑戦する若手経営者・起業家たちと語り合う、リアルイベント。実際に石垣でビジネスを起こし、地域資源や課題に向き合う経営者たちと、「島で働く・起業する」をより身近に感じられるトークイベント",
+      "en": "How can we turn island challenges into value? A real event where we discuss with young business leaders and entrepreneurs taking on challenges in Ishigaki Island. A talk event where you can feel \"working and starting a business on the island\" more closely with business owners who actually started businesses in Ishigaki and are addressing local resources and challenges.",
+      "zh": "如何將島嶼的挑戰轉化為價值？與在石垣島挑戰的年輕經營者和企業家一同對話的實體活動。與實際在石垣創業、面對地區資源和課題的經營者們一起，讓您更親近地感受「在島上工作・創業」的對談活動。"
+    },
+    "venue": {
+      "ja": "石垣市健康福祉センター診断ホール（1階）",
+      "en": "Ishigaki City Health and Welfare Center Diagnostic Hall (1st Floor)",
+      "zh": "石垣市健康福祉中心診斷廳（1樓）"
+    },
+    "open_time": "13:50",
+    "start_time": "14:00",
+    "performers": [
+      {
+        "ja": "岡氏（〇〇日株式会社代表）",
+        "en": "Mr./Ms. Oka (Representative of XX Nichi Co., Ltd.)",
+        "zh": "岡氏（〇〇日股份有限公司代表）"
+      },
+      {
+        "ja": "国神恵美（日神スポーツ社代表取締役）",
+        "en": "Emi Kunigami (Representative Director of Nisshin Sports Co., Ltd.)",
+        "zh": "國神惠美（日神運動公司代表取締役）"
+      },
+      {
+        "ja": "R都大（Eternity",
+        "en": "R Metropolitan University (Eternity)",
+        "zh": "R都大（Eternity）"
+      },
+      {
+        "ja": "Foods代表取締役）",
+        "en": "Representative Director of Foods",
+        "zh": "Foods代表董事"
+      },
+      {
+        "ja": "杉原真実（Mammy",
+        "en": "Sugihara Mami (Mammy)",
+        "zh": "杉原真實（Mammy）"
+      },
+      {
+        "ja": "Farm代表）",
+        "en": "Farm Representative)",
+        "zh": "農場代表）"
+      },
+      {
+        "ja": "黒島容（ホーヨー企画代表社員）",
+        "en": "Yo Kuroshima (Representative Member, Hoyo Planning LLC)",
+        "zh": "黑島容（豪洋企劃代表社員）"
+      }
+    ],
+    "fee": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "contact": {
+      "ja": "GOB株式会社 0090-8290-9482",
+      "en": "GOB Corporation 0090-8290-9482",
+      "zh": "GOB股份有限公司 0090-8290-9482"
     },
     "link": {
       "ja": "",
