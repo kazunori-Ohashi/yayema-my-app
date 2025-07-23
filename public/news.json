@@ -105,59 +105,7 @@
       "zh": ""
     }
   },
-  {
-    "id": "c5740cbb-24d5-421d-853b-ec098e9727c8",
-    "date": "2025-07-27",
-    "title": {
-      "ja": "衣・食・住",
-      "en": "Clothing, Food, and Housing",
-      "zh": "衣、食、住"
-    },
-    "detail": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "venue": {
-      "ja": "石垣市健康福祉センター2階会議室",
-      "en": "Conference Room on the 2nd Floor of Ishigaki City Health and Welfare Center",
-      "zh": "石垣市健康福祉中心2樓會議室"
-    },
-    "open_time": "",
-    "start_time": "13:30",
-    "performers": [
-      {
-        "ja": "長崎拓（医師）",
-        "en": "Hiroshi Nagasaki (Physician)",
-        "zh": "長崎拓（醫師）"
-      },
-      {
-        "ja": "花谷まり（農業）",
-        "en": "Mari Hanatani (Agriculture)",
-        "zh": "花谷真理（農業）"
-      },
-      {
-        "ja": "石城三夫（有限会社石垣設計室）",
-        "en": "Mitsuo Ishijo (Ishigaki Design Office Co., Ltd.)",
-        "zh": "石城三夫（有限公司石垣設計室）"
-      }
-    ],
-    "fee": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "contact": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    },
-    "link": {
-      "ja": "",
-      "en": "",
-      "zh": ""
-    }
-  },
+  
   {
     "id": "a6dd7e4d-cc6e-47b8-aaff-381ec0b9e358",
     "date": "2025-07-26",
