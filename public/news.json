@@ -53,6 +53,59 @@
     }
   },
   {
+    "id": "ef9c0052-417a-457c-b9e1-074e19a17172",
+    "date": "2025-08-01",
+    "title": {
+      "ja": "マジカルラブリー・囲碁将棋のワクワクドキドキツアーin石垣島",
+      "en": "Magical Lovely Go and Shogi's Exciting and Thrilling Tour in Ishigaki Island",
+      "zh": "魔法可愛圍棋將棋石垣島興奮刺激之旅"
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣市民会館（大ホール）",
+      "en": "Ishigaki Civic Center (Main Hall)",
+      "zh": "石垣市民會館（大廳）"
+    },
+    "open_time": "18:30",
+    "start_time": "19:00",
+    "performers": [
+      {
+        "ja": "マジカルラブリー",
+        "en": "Magical Lovely",
+        "zh": "魔法可愛"
+      },
+      {
+        "ja": "囲碁将棋",
+        "en": "Go and Shogi",
+        "zh": "圍棋將棋"
+      },
+      {
+        "ja": "ガストしずる",
+        "en": "Gusto Shizuru",
+        "zh": "ガスト靜流"
+      }
+    ],
+    "fee": {
+      "ja": "前売り4,000円（全席指定）",
+      "en": "Advance ticket ¥4,000 (all seats reserved)",
+      "zh": "預售票4,000日圓（全席指定）"
+    },
+    "contact": {
+      "ja": "090-4368-9255",
+      "en": "090-4368-9255",
+      "zh": "090-4368-9255"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
     "id": "34ca5c71-344e-492c-893c-2cd5b26f914a",
     "date": "2025-07-27",
     "title": {
@@ -105,7 +158,59 @@
       "zh": ""
     }
   },
-  
+  {
+    "id": "d9c5475d-5fd2-4e1e-9f13-da857ac5d755",
+    "date": "2025-07-27",
+    "title": {
+      "ja": "医・食・住 健康づくりセミナー",
+      "en": "Medical Care, Food, and Housing Health Promotion Seminar",
+      "zh": "醫・食・住 健康促進研習會"
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "石垣市健康福祉センター2階会議室",
+      "en": "Ishigaki City Health and Welfare Center 2nd Floor Conference Room",
+      "zh": "石垣市健康福祉中心2樓會議室"
+    },
+    "open_time": "",
+    "start_time": "13:30",
+    "performers": [
+      {
+        "ja": "長崎拓",
+        "en": "Hiroshi Nagasaki",
+        "zh": "長崎拓"
+      },
+      {
+        "ja": "花谷まゆ",
+        "en": "Mayu Hanaya",
+        "zh": "花谷真由"
+      },
+      {
+        "ja": "石垣三夫",
+        "en": "Ishigaki Mitsuo",
+        "zh": "石垣三夫"
+      }
+    ],
+    "fee": {
+      "ja": "無料",
+      "en": "Free",
+      "zh": "免費"
+    },
+    "contact": {
+      "ja": "0980-82-3210",
+      "en": "0980-82-3210",
+      "zh": "0980-82-3210"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
   {
     "id": "a6dd7e4d-cc6e-47b8-aaff-381ec0b9e358",
     "date": "2025-07-26",
@@ -180,6 +285,64 @@
     }
   },
   {
+    "id": "4a8bc68b-c844-4311-9f78-255bd2b5c9d6",
+    "date": "2025-07-26",
+    "title": {
+      "ja": "いしがき起業ガレッジ～プレイベント～",
+      "en": "Ishigaki Startup Garage - Pre-event -",
+      "zh": "石垣創業車庫～預備活動～"
+    },
+    "detail": {
+      "ja": "島の課題を価値に変える石垣島で挑戦する若手経営者・起業家たちと語り合うリアルイベント",
+      "en": "A real-life event to discuss with young business leaders and entrepreneurs who are taking on challenges in Ishigaki Island, turning the island's challenges into value",
+      "zh": "與在石垣島挑戰的年輕經營者和創業家們對話的真實活動，將島嶼的挑戰轉化為價值"
+    },
+    "venue": {
+      "ja": "石垣市健康福祉センター健康ホール（1階）",
+      "en": "Ishigaki City Health and Welfare Center Health Hall (1st Floor)",
+      "zh": "石垣市健康福祉中心健康大廳（1樓）"
+    },
+    "open_time": "13:50",
+    "start_time": "14:00",
+    "performers": [
+      {
+        "ja": "岡奈仁",
+        "en": "Okana Jin",
+        "zh": "岡奈仁"
+      },
+      {
+        "ja": "国仲恵美",
+        "en": "Kunianaka Emi",
+        "zh": "國仲惠美"
+      },
+      {
+        "ja": "駅部大男",
+        "en": "Ekibu Daio",
+        "zh": "駅部大男"
+      },
+      {
+        "ja": "杉原真実",
+        "en": "Sugihara Mami",
+        "zh": "杉原真實"
+      }
+    ],
+    "fee": {
+      "ja": "無料",
+      "en": "Free",
+      "zh": "免費"
+    },
+    "contact": {
+      "ja": "090-8290-9482",
+      "en": "090-8290-9482",
+      "zh": "090-8290-9482"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
     "id": "19d6167e-f9ab-4f41-8388-e292aac1b3b5",
     "date": "2025-07-21",
     "title": {
@@ -196,6 +359,80 @@
       "ja": "石垣島星ノ海プラネタリウム",
       "en": "Ishigaki Island Hoshi no Umi Planetarium",
       "zh": "石垣島星之海天文館"
+    },
+    "open_time": "",
+    "start_time": "15:00/19:00",
+    "performers": [],
+    "fee": {
+      "ja": "2,500円",
+      "en": "2,500 yen",
+      "zh": "2,500日圓"
+    },
+    "contact": {
+      "ja": "0980-87-9945",
+      "en": "0980-87-9945",
+      "zh": "0980-87-9945"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "152c4686-4dc4-4d2d-b474-03853bb79aca",
+    "date": "2025-07-21",
+    "title": {
+      "ja": "第4回IDEAL 国際映画祭",
+      "en": "4th IDEAL International Film Festival",
+      "zh": "第四屆IDEAL國際電影節"
+    },
+    "detail": {
+      "ja": "優秀アニメーション映画「審査員特別賞」「監督賞」、全米6位の作品上映",
+      "en": "Excellent animated film wins \"Special Jury Award\" and \"Director's Award\", screening ranked 6th nationwide in the US",
+      "zh": "優秀動畫電影榮獲「評審團特別獎」「導演獎」，全美上映排名第6位"
+    },
+    "venue": {
+      "ja": "石垣市民会館中ホール",
+      "en": "Ishigaki Civic Hall Medium Hall",
+      "zh": "石垣市民會館中廳"
+    },
+    "open_time": "",
+    "start_time": "10:00/14:00/19:00",
+    "performers": [],
+    "fee": {
+      "ja": "特別鑑賞券をお持ちでない方は当日受付",
+      "en": "Those who do not have special viewing tickets should register on the day of the event",
+      "zh": "未持有特別觀賞券者請於當日報到"
+    },
+    "contact": {
+      "ja": "080-3246-1074",
+      "en": "080-3246-1074",
+      "zh": "080-3246-1074"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "a9cfb61b-4914-4d0b-bd19-446e270a8df4",
+    "date": "2025-07-21",
+    "title": {
+      "ja": "星ノ海プラネタリウム6周年記念 プラネタリウムde上方落語",
+      "en": "6th Anniversary of Hoshi no Umi Planetarium - Kamigata Rakugo at the Planetarium",
+      "zh": "星之海天象館6週年紀念 天象館上方落語"
+    },
+    "detail": {
+      "ja": "プラネタリウム6周年記念イベント",
+      "en": "Planetarium 6th Anniversary Commemorative Event",
+      "zh": "天文館六週年紀念活動"
+    },
+    "venue": {
+      "ja": "ユーグレナ石垣港離島ターミナル内",
+      "en": "Euglena Ishigaki Port Remote Island Terminal",
+      "zh": "微綠藻石垣港離島航廈內"
     },
     "open_time": "",
     "start_time": "15:00/19:00",
@@ -469,6 +706,86 @@
       "ja": "",
       "en": "",
       "zh": ""
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "d56671eb-a856-4a67-a810-84f953705b9e",
+    "date": "2025-07-01〜2025-07-27",
+    "title": {
+      "ja": "Namik展「南の島の動物園 vol.3」",
+      "en": "Namik Exhibition \"Southern Island Zoo vol.3\"",
+      "zh": "Namik展覽「南島動物園 vol.3」"
+    },
+    "detail": {
+      "ja": "PLAY WITH COLORーいろであそぶーをテーマにカラフルな動物の作品を作り続けているアーティスト「Namiki」の最新展",
+      "en": "The latest exhibition by artist \"Namiki,\" who continues to create colorful animal artworks under the theme \"PLAY WITH COLOR - Playing with Colors\"",
+      "zh": "以「PLAY WITH COLOR—用色彩遊戲—」為主題，持續創作色彩繽紛動物作品的藝術家「Namiki」的最新展覽"
+    },
+    "venue": {
+      "ja": "SAKE & GALLERY（石垣島ホテルククル1F）",
+      "en": "SAKE & GALLERY (Ishigaki Island Hotel Kukuru 1F)",
+      "zh": "SAKE & GALLERY（石垣島酒店庫庫魯1樓）"
+    },
+    "open_time": "",
+    "start_time": "10:00",
+    "performers": [
+      {
+        "ja": "Namiki",
+        "en": "Namiki",
+        "zh": "Namiki"
+      }
+    ],
+    "fee": {
+      "ja": "無料",
+      "en": "Free",
+      "zh": "免費"
+    },
+    "contact": {
+      "ja": "0980-82-3380",
+      "en": "0980-82-3380",
+      "zh": "0980-82-3380"
+    },
+    "link": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    }
+  },
+  {
+    "id": "0318e91a-1ef9-44cf-9faf-b94b64c983ad",
+    "date": "2025-06-13〜2025-09-15",
+    "title": {
+      "ja": "夏のオリジナル番組「天の川ティンヌカーラ2」",
+      "en": "",
+      "zh": ""
+    },
+    "detail": {
+      "ja": "",
+      "en": "",
+      "zh": ""
+    },
+    "venue": {
+      "ja": "ユーグレナ石垣港離島ターミナル内",
+      "en": "Euglena Ishigaki Port Remote Islands Terminal",
+      "zh": "微藻石垣港離島航廈內"
+    },
+    "open_time": "",
+    "start_time": "",
+    "performers": [],
+    "fee": {
+      "ja": "一般1,200円/高校生以下700円/島割・一般700円/島割・高校生以下300円",
+      "en": "General 1,200 yen / High school students and under 700 yen / Island discount・General 700 yen / Island discount・High school students and under 300 yen",
+      "zh": "一般1,200日圓/高中生以下700日圓/島嶼優惠・一般700日圓/島嶼優惠・高中生以下300日圓"
+    },
+    "contact": {
+      "ja": "0980-87-9945",
+      "en": "0980-87-9945",
+      "zh": "0980-87-9945"
     },
     "link": {
       "ja": "",
